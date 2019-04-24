@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+ <head> 
+  <title>dafeiya@limeng</title>
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1"> 
+  <meta http-equiv="refresh" content="2;url=https://www.worldphoto.org/zh"> 
+  <link rel="stylesheet" href="../../sshf/style.css"> 
+  <link rel="stylesheet" href="../../sshf/layout.css"> 
+  <link rel="stylesheet" href="../../sshf/feature_header_footer_common.css"> 
+  <link rel="stylesheet" href="css/pagedown.htm" type="text/css" media="screen">
+  <script src="../../sshf/jquery.js"></script> 
+  <script src="../../sshf/respond.min.js"></script> 
+  <style type="text/css">
+body,td,th {
+	font-family: "Microsoft YaHei", Arial, "Hiragino Sans GB", Sans-Serif;
+}
+</style> 
+  <script src="js/lib/satelliteLib.js"></script>
+ </head> 
+ <body> 
+  <div id="main" class="feature"> 
+   <div class="header"> 
+    <div class="w960"> 
+     <div class="left"></div> 
+     <div class="right"></div> 
+    </div> 
+   </div> 
+   <div class="bread_banner"> 
+    <div class="w960 cf"> 
+     <div class="left"> 
+      <div class="breadcrumb" id="breadcrumb"> 
+       <a href="match_tz.htm">在线商城首页</a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="content"> 
+    <div style="margin:0px auto;"> 
+     <div style="margin:0px auto;width:960px; text-align:center; "> 
+      <img src="shengming.jpg" width="960" height="300"> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script type="text/javascript">
+$(document).ready(function(){
+	$(function() {
+    $(".p_39h_desc a[rel^='video']").prettyPhoto({animation_speed:'fast',slideshow:10000, hideflash: true, social_tools: false});
+});
+	var toTopHeight = $(".scrollBar").offset().top;
+	$(window).scroll(function(){
+		if ($(window).scrollTop() > toTopHeight ) {
+			//alert($(window).scrollTop())
+		  $(".scrollBar").addClass("nav_fixed");
+		  $("#go-top").show();
+		} else{
+		  $(".scrollBar").removeClass("nav_fixed");
+		  $("#go-top").hide();
+		};
+	});
+});
+</script> 
+  <script type="text/javascript">
+$(function(){
+	$(".nav>ul>li").each(function(index,item){
+		$(item).click(function(){
+			$(".ft-page").removeClass('active').eq(index).addClass('active');
+			$(".nav>ul>li").removeClass("active");
+			$(this).addClass("active");
+		})
+	})
+})
+	
+</script> 
+  <script type="text/javascript">
+	$("#feature").addClass("navnow");
+</script> 
+  <script src="../../sshf/feature_footer_common.js"></script> 
+  <script type="text/javascript">
+aaa();
+</script>   
+  <script type="text/javascript">window._satellite&&window._satellite.pageBottom();</script>
+ </body>
+</html>

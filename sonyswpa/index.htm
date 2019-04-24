@@ -1,0 +1,840 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>dafeiya@limeng</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="author" content="limeng">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../sshf/style.css">
+    <link rel="stylesheet" href="../sshf/layout.css">
+    <link rel="stylesheet" href="attend/css/main.css">
+    <link href="css/main.css?v=20161226" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/newhf.css">
+    <!--<link rel="import" href="./page/common/footer.html" id="a_bottom">-->
+    <script type="text/javascript" src="js/lib/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="attend/js/autoSize.js"></script>
+    <script type="text/javascript" src="js/lib/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/swfobject.js"></script>
+    <style>
+        .videoShowContent {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 100099;
+            display: none;
+        }
+
+        .videoAlertBox {
+            width: 700px;
+            height: 420px;
+            display: none;
+            position: absolute;
+            left: 104px;
+            top: 265px;
+            z-index: 110000;
+        }
+
+        #videoPlayerFlash {
+            width: 686px;
+            height: 410px;
+            overflow: hidden;
+        }
+
+        a.videoclose {
+            width: 40px;
+            height: 40px;
+            display: block;
+            text-align: center;
+            line-height: 40px;
+            position: absolute;
+            top: -22px;
+            right: -18px;
+            z-index: 10001;
+            color: #fff;
+            font-size: 40px;
+            text-decoration: none;
+        }
+
+        .videoclose:hover {
+            color: #C90;
+            text-decoration: none;
+        }
+
+        .pc {
+            display: block;
+        }
+
+        .mobile {
+            display: none;
+        }
+
+        .bgt {
+            background: #ddab30;
+        }
+
+        .jx {
+            position: relative;
+        }
+
+        .jx .jlink1 a {
+            width: 0;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            display: block;
+        }
+
+        .jx .jlink2 a {
+            width: 50%;
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            display: block;
+        }
+
+        .link1 a {
+            background: none;
+            width: 0;
+            left: 50%;
+            height: 0;
+            position: absolute;
+            top: 56%;
+        }
+
+        .link2 a {
+            background: none;
+            width: 50%;
+            left: 50%;
+            height: 16%;
+            position: absolute;
+            top: 84%;
+        }
+
+        @media screen and (max-width: 800px) {
+            .pc {
+                display: none;
+            }
+
+            .mobile {
+                display: block;
+            }
+
+            img.width100 {
+                width: 100%;
+            }
+
+            .nav_c img {
+                width: 100%;
+            }
+
+            .mpic {
+                position: relative;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+        var width = 686;
+        var height = 375;
+        var params = {
+
+            menu: "false",
+            wmode: "transparent",
+            scale: "noScale",
+            allowFullscreen: "true",
+            allowScriptAccess: "always",
+            bgcolor: "#FFFFFF"
+
+        };
+
+        function closeVideo() {
+            $(".videoShowContent").click(function () {
+                $(".videoShowContent").css({"display": "none"});
+                $(".videoAlertBox").css({"display": "none"});
+                $("#videoPlayerFlash").remove();
+            });
+        }
+
+        function clickToShowVideo() {
+            $(".videoShowContent").css({"width": $("body").width(), "height": $("body").height(), "opacity": 0.5});
+            $(".videoAlertBox").css({
+                "left": (($("body").width() - $(".videoAlertBox").width()) / 2),
+                "top": $(window).scrollTop() + 100
+            });
+            $(".vds1,.vds2").click(function () {
+                $(".videoShowContent").css({
+                    "width": $("body").width(),
+                    "height": $("body").height(),
+                    "opacity": 0.5,
+                    "display": "block",
+                    "backgroundColor": "#000000"
+                });
+                $(".videoAlertBox").css({
+                    "left": (($("body").width() - $(".videoAlertBox").width()) / 2),
+                    "display": "block",
+                    "top": $(window).scrollTop() + 100
+                });
+                $("<div id=\"videoPlayerFlash\"></div>").appendTo(".videoAlertBox");
+                var url = $(this).attr("rel");
+                swfobject.embedSWF("index.swf", "videoPlayerFlash", "686", "375", "10.0.0", "expressInstall.swf", {"url": url}, params);
+                $(".videoclose").click(function () {
+                    $(".videoShowContent").css({"display": "none"});
+                    $(".videoAlertBox").css({"display": "none"});
+                    $("#videoPlayerFlash").empty();
+                    $("#videoPlayerFlash").remove();
+                })
+            })
+
+        }
+
+        $(function () {
+            clickToShowVideo();
+            closeVideo();
+
+        })
+    </script>
+
+    <script src="js/lib/satelliteLib.js"></script>
+</head>
+<body>
+<div id="main" class="feature pc">
+    <div id="header"></div>
+    <div class="mains kv">
+    </div>
+    <div class="nav_z">
+        <div class="nav_bgr">
+            <div class="nav_bg">
+                <a href="index.htm" class="nactive"><span class="nav_0">首页</span></a>
+                <a href="html/zuopin_list.htm"><span class="nav_0">2018年获奖作品展示</span></a>
+                <a href="attend/index.htm"><span class="nav_0">赛事介绍</span></a>
+                <a href="html/xunzhan.htm"><span class="nav_0">巡展掠影</span></a>
+                <!--<a target="_blank" style=" width:133px; float:right;" href="https://www.sonystyle.com.cn/products/promotion/young/index.htm"><img src="images/shouye/nav_r.jpg"></a> -->
+                <!--<a target="_blank" style=" position:absolute; right:-155px; top:0; z-index:1; display:block; background:#fff; height:69px;" href="https://www.sonystyle.com.cn/products/alphauniverse/index.htm"> -->
+                <div>
+                    <img src="images/shouye/wlogo.jpg">
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mains jianjie">
+        <div class="main">
+            <a href="javascript:void(0)" class="ss1" rel="video/index.flv"><img src="images/shouye/jianjie.jpg"></a>
+        </div>
+    </div>
+    <script type="text/javascript">
+
+        $(window).scroll(function () {
+            var ttop = $(".nav_z").offset().top;
+            if ($(window).scrollTop() > ttop) {
+                $(".nav_bgr").addClass("fixed");
+            } else {
+                $(".nav_bgr").removeClass("fixed");
+            }
+        })
+
+        $(document).ready(function () {
+            $('.flexslider').flexslider({
+                slideshowSpeed: 5000,
+                animation: "slide",
+                slideDirection: "horizontal",
+                directionNav: true,
+                pauseOnAction: false,
+                touch: false
+            });
+            $(".btns a").each(function (index) {
+                $(this).click(function () {
+                    if (!$(this).hasClass("actived")) {
+                        $(".btns a").removeClass("actived");
+                        $(this).addClass("actived");
+
+                        $(".bgitem").removeClass("bactive");
+                        $(".bgitem").eq(index).addClass("bactive");
+                        $(".jx").fadeOut();
+                        $(".jx").eq(index).fadeIn();
+                    }
+
+                })
+
+
+            })
+
+
+        });
+    </script>
+    <script>
+        $(function () {
+            var vct1 = document.getElementById('vts1');
+            var vct2 = document.getElementById('vts2');
+            var vct3 = document.getElementById('vts3');
+            var vct4 = document.getElementById('vts4');
+            $('.ss1').click(function () {
+                $('.pkt_fc').fadeIn();
+            })
+            $('.closeing').click(function () {
+                $('.pkt_fc').fadeOut();
+            })
+            $('.lentx').click(function () {
+                $('.vidtis').fadeOut();
+                $('.pkt_fc').fadeIn();
+                vct1.pause();
+                vct2.pause();
+                vct3.pause();
+                vct4.pause();
+            })
+            $('#tv1').click(function () {
+                $('#vidos1').fadeIn();
+                vct1.play();
+                $('.pkt_fc').hide();
+            })
+            $('#tv2').click(function () {
+                $('#vidos2').fadeIn();
+                vct2.play();
+                $('.pkt_fc').hide();
+            })
+            $('#tv3').click(function () {
+                $('#vidos3').fadeIn();
+                vct3.play();
+                $('.pkt_fc').hide();
+            })
+            $('#tv4').click(function () {
+                $('#vidos4').fadeIn();
+                vct4.play();
+                $('.pkt_fc').hide();
+            })
+
+        })
+    </script>
+    <style>
+        .pkt_fc {
+            width: 100%;
+            height: 100%;
+            z-index: 99;
+            background: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: none;
+        }
+
+        .pkt_fc img {
+            width: 100%;
+            display: block;
+        }
+
+        .pkt_fc h3 {
+            width: 100%;
+            text-align: center;
+            padding: 30px 0 30px 0;
+            font-size: 26px;
+            color: #e4b404;
+        }
+
+        .closeing {
+            position: absolute;
+            right: -55px;
+            top: 0;
+            width: 50px;
+        }
+
+        .fotvs {
+            width: 700px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: url(images/video_bg.jpg) repeat-y center;
+        }
+
+        .lots {
+            width: 90%;
+            margin: 0 auto;
+            padding-bottom: 40px;
+        }
+
+        .lots li {
+            width: 45%;
+            float: left;
+            margin: 0 2.5% 3% 2.5%;
+        }
+
+        .lots li p {
+            text-align: center;
+            font-size: 16px;
+            color: #fff;
+            background: #000000;
+            padding: 8px 0;
+            margin-top: 8px;
+            display: block;
+        }
+
+        .vidtis {
+            width: 740px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+            z-index: 1000;
+        }
+
+        .lentx {
+            font-size: 40px;
+            color: #c39525;
+            position: absolute;
+            right: -38px;
+            top: -20px;
+        }
+
+        .vidtis video {
+            width: 100%;
+        }
+
+        .lops {
+            width: 25%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <div class="pkt_fc">
+        <div class="fotvs">
+            <a href="javascript:void(0)" class="closeing"><img src="images/video_sle.jpg"></a>
+            <h3>点击播放视频</h3>
+            <ul class="lots clearfix">
+                <li><a href="javascript:void(0);" id="tv1">
+                    <div style="position:relative;">
+                        <img src="images/index2017/vid1.jpg">
+                        <div class="lops">
+                            <img src="images/video2017/open.png">
+                        </div>
+                    </div>
+                    <p>关于索尼世界摄影大赛</p></a></li>
+                <li><a href="javascript:void(0);" id="tv2">
+                    <div style="position:relative;">
+                        <img src="images/index2017/vid2.jpg">
+                        <div class="lops">
+                            <img src="images/video2017/open.png">
+                        </div>
+                    </div>
+                    <p>2017 SWPA颁奖典礼</p></a></li>
+                <li><a href="javascript:void(0);" id="tv3">
+                    <div style="position:relative;">
+                        <img src="images/index2017/vid3.jpg">
+                        <div class="lops">
+                            <img src="images/video2017/open.png">
+                        </div>
+                    </div>
+                    <p>专访2017SWPA中国获奖摄影师</p></a></li>
+                <li><a href="javascript:void(0);" id="tv4">
+                    <div style="position:relative;">
+                        <img src="images/index2017/vid4.jpg">
+                        <div class="lops">
+                            <img src="images/video2017/open.png">
+                        </div>
+                    </div>
+                    <p>专访世界摄影组织主席ScottGray</p></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="vidtis" id="vidos1">
+        <video id="vts1" src="video/index.mp4" controls></video>
+        <a href="javascript:void(0);" class="lentx">×</a>
+    </div>
+    <div class="vidtis" id="vidos2">
+        <video id="vts2" src="video/v1.mp4" controls></video>
+        <a href="javascript:void(0);" class="lentx">×</a>
+    </div>
+    <div class="vidtis" id="vidos3">
+        <video id="vts3" src="video/v2.mp4" controls></video>
+        <a href="javascript:void(0);" class="lentx">×</a>
+    </div>
+    <div class="vidtis" id="vidos4">
+        <video id="vts4" src="video/v3.mp4" controls></video>
+        <a href="javascript:void(0);" class="lentx">×</a>
+    </div>
+    <div class="mains snn">
+        <div class="up_con">
+            <div class="bgs">
+                <div class="bgitem bactive">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li style="background: url(images/index2018/china1bg.jpg) 50% 0 no-repeat;">
+                                <div class="up_c padk">
+                                    <a href="html/zuopin_list.htm#p=3"><img src="images/index2018/china1.jpg"></a>
+                                </div>
+                            </li>
+                            <li style="background: url(images/index2018/china2bg.jpg) 50% 0 no-repeat;">
+                                <div class="up_c padk">
+                                    <a href="html/zuopin_list.htm#p=3"><img src="images/index2018/china2.jpg"></a>
+                                </div>
+                            </li>
+                            <li style="background: url(images/index2018/china3bg.jpg) 50% 0 no-repeat;">
+                                <div class="up_c padk">
+                                    <a href="html/zuopin_list.htm#p=3"><img src="images/index2018/china3.jpg"></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bgitem">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li style="background: url(images/index2018/zy1bg.jpg) 50% 0 no-repeat;">
+                                <div class="up_c padk">
+                                    <a href="html/zuopin.htm"><img src="images/index2018/zy1.jpg"></a>
+                                </div>
+                            </li>
+                            <li style="background: url(images/index2018/zy2bg.jpg) 50% 0 no-repeat;">
+                                <div class="up_c padk">
+                                    <a href="html/zuopin.htm"><img src="images/index2018/zy2.jpg"></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bgitem">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li style="background: url(images/index2018/open1bg.jpg) 50% 0 no-repeat;">
+                                <div class="up_c padk">
+                                    <a href="html/zuopin_gongkai.htm"><img src="images/index2018/open1.jpg"></a>
+                                </div>
+                            </li>
+                            <li style="background: url(images/index2018/open2bg.jpg) 50% 0 no-repeat;">
+                                <div class="up_c padk">
+                                    <a href="html/zuopin_gongkai.htm"><img src="images/index2018/open2.jpg"></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bgitem">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li style="background: url(images/index2018/student1bg.jpg) 50% 0 no-repeat;">
+                                <div class="up_c padk">
+                                    <a href="html/zuopin_xuesheng.htm"><img src="images/index2018/student1.jpg"></a>
+                                </div>
+                            </li>
+                            <li style="background: url(images/index2018/student2bg.jpg) 50% 0 no-repeat;">
+                                <div class="up_c padk">
+                                    <a href="html/zuopin_xuesheng.htm"><img src="images/index2018/student2.jpg"></a>
+                                </div>
+                            </li>
+                            <li style="background: url(images/index2018/student3bg.jpg) 50% 0 no-repeat;">
+                                <div class="up_c padk">
+                                    <a href="html/zuopin_xuesheng.htm"><img src="images/index2018/student3.jpg"></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bgitem">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li style="background: url(images/index2018/adult1bg.jpg) 50% 0 no-repeat;">
+                                <div class="up_c padk">
+                                    <a href="html/zuopin_qingshaonian.htm"><img src="images/index2018/adult1.jpg"></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="up_c">
+                <div class="slogo">
+                    <img src="images/shouye/slogo.png">
+                </div>
+                <div class="btns clearfix">
+                    <a href="javascript:void(0)" class="actived">中国专项奖</a>
+                    <a href="javascript:void(0)">专业组</a>
+                    <a href="javascript:void(0)">公开组</a>
+                    <a href="javascript:void(0)">学生组</a>
+                    <a href="javascript:void(0)">青少年组</a>
+                </div>
+            </div>
+            <div class="jx_info">
+                <div class="jx" style="display:block;">
+                    <dl class="jx1">
+                        <div class="jlink1">
+                            <a href="attend/countryprice.htm"></a>
+                        </div>
+                        <div class="jlink2">
+                            <a href="zuopin_list2016.htm"></a>
+                        </div>
+                    </dl>
+                </div>
+                <div class="jx">
+                    <dl class="jx2">
+                        <div class="jlink1">
+                            <a href="attend/zhuanye.htm"></a>
+                        </div>
+                        <div class="jlink2">
+                            <a href="zuopin2016.htm"></a>
+                        </div>
+                    </dl>
+                </div>
+                <div class="jx">
+                    <dl class="jx3">
+                        <div class="jlink1">
+                            <a href="attend/gongkai.htm"></a>
+                        </div>
+                        <div class="jlink2">
+                            <a href="zuopin_gongkai2016.htm"></a>
+                        </div>
+                    </dl>
+                </div>
+                <div class="jx">
+                    <dl class="jx4">
+                        <div class="jlink1">
+                            <a href="attend/student.htm"></a>
+                        </div>
+                        <div class="jlink2">
+                            <a href="zuopin_xuesheng2016.htm"></a>
+                        </div>
+                    </dl>
+                </div>
+                <div class="jx">
+                    <dl class="jx5">
+                        <div class="jlink1">
+                            <a href="attend/adult.htm"></a>
+                        </div>
+                        <div class="jlink2">
+                            <a href="zuopin_qingshaonian2016.htm"></a>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mains jincheng">
+        <div class="main">
+            <img src="images/shouye/jincheng.jpg">
+        </div>
+    </div>
+</div>
+<style>
+    .mobest {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        background: rgba(0, 0, 0, 0.5);
+        display: none;
+    }
+
+    .mobest img {
+        display: block;
+        width: 100%;
+    }
+
+    .mobest_cont {
+        width: 90%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background: url(images/video_bg.jpg) repeat-y center;
+        background-size: 100%;
+    }
+
+    .mobest_cont h3 {
+        width: 100%;
+        text-align: center;
+        padding: 4% 0;
+        font-size: 18px;
+        color: #C39526;
+    }
+
+    .to_clse {
+        position: absolute;
+        right: 0;
+        top: -10%;
+        width: 10%;
+    }
+
+    @media screen and (max-width: 800px) {
+        .lots li {
+            width: 44%;
+            margin: 1% 3%;
+        }
+
+        .lots li p {
+            text-align: center;
+            font-size: 12px;
+            color: #fff;
+            background: #000000;
+            padding: 8px 0;
+            margin-top: 8px;
+            display: block;
+        }
+
+    }
+</style>
+<script>
+    $(function () {
+        $('.mobile_videos').click(function () {
+            $('.mobest').fadeIn();
+        })
+        $('.to_clse').click(function () {
+            $('.mobest').fadeOut();
+        })
+    })
+</script>
+<div class="mobest">
+    <div class="mobest_cont">
+        <a href="javascript:void(0)" class="to_clse"><img src="images/video_sle.jpg"></a>
+        <h3>点击播放视频</h3>
+        <ul class="lots clearfix">
+            <li><a href="video/index.mp4">
+                <div style="position:relative;">
+                    <img src="images/index2017/vid1.jpg">
+                    <div class="lops">
+                        <img src="images/video2017/open.png">
+                    </div>
+                </div>
+                <p>关于索尼世界摄影大赛</p></a></li>
+            <li><a href="video/v1.mp4">
+                <div style="position:relative;">
+                    <img src="images/index2017/vid2.jpg">
+                    <div class="lops">
+                        <img src="images/video2017/open.png">
+                    </div>
+                </div>
+                <p>2017 SWPA颁奖典礼</p></a></li>
+            <li><a href="video/v2.mp4">
+                <div style="position:relative;">
+                    <img src="images/index2017/vid3.jpg">
+                    <div class="lops">
+                        <img src="images/video2017/open.png">
+                    </div>
+                </div>
+                <p>专访2017SWPA中国获奖摄影师</p></a></li>
+            <li><a href="video/v3.mp4">
+                <div style="position:relative;">
+                    <img src="images/index2017/vid4.jpg">
+                    <div class="lops">
+                        <img src="images/video2017/open.png">
+                    </div>
+                </div>
+                <p>专访世界摄影组织主席ScottGray</p></a></li>
+        </ul>
+    </div>
+</div>
+<div class="mobile">
+
+    <div class="mb_m">
+        <img src="images/mobile/m_01.jpg" class="width100">
+    </div>
+    <div class="mb_m nav">
+        <div class="nav_c">
+            <img src="images/mobile/nav1_0414.jpg">
+            <a href="index.htm" class="navc_1"></a>
+            <a href="html/zuopin_list.htm" class="navc_2"></a>
+            <a href="attend/index.htm" class="navc_3"></a>
+            <a href="html/xunzhan.htm" class="navc_4"></a>
+        </div>
+    </div>
+    <div class="mb_m">
+        <a href="javascript:void(0);" class="mobile_videos"><img src="images/mobile/m_03.jpg" class="width100"></a>
+    </div>
+    <div class="mb_m">
+        <img src="images/mobile/m_04.jpg" class="width100">
+        <div class="tabs clearfix">
+            <ul class="clearfix">
+                <li class="first active">国家地区专项奖</li>
+                <li class="second">专业组</li>
+                <li>公开组</li>
+                <li>学生组</li>
+                <li>青少年组</li>
+            </ul>
+        </div>
+        <div class="m_pic1">
+            <div class="mpic" style="display:block;">
+                <img src="images/index2018/mpic1.jpg" class="width100">
+                <div class="link1">
+                    <a href="attend/countryprice.htm"></a>
+                </div>
+                <div class="link2">
+                    <a href="html/zuopin_list.htm"></a>
+                </div>
+            </div>
+            <div class="mpic">
+                <img src="images/index2018/mpic2.jpg" class="width100">
+                <div class="link1">
+                    <a href="attend/zhuanye.htm"></a>
+                </div>
+                <div class="link2">
+                    <a href="html/zuopin.htm"></a>
+                </div>
+            </div>
+            <div class="mpic">
+                <img src="images/index2018/mpic3.jpg" class="width100">
+                <div class="link1">
+                    <a href="attend/gongkai.htm"></a>
+                </div>
+                <div class="link2">
+                    <a href="html/zuopin_gongkai.htm"></a>
+                </div>
+            </div>
+            <div class="mpic">
+                <img src="images/index2018/mpic4.jpg" class="width100">
+                <div class="link1">
+                    <a href="attend/student.htm"></a>
+                </div>
+                <div class="link2">
+                    <a href="html/zuopin_xuesheng.htm"></a>
+                </div>
+            </div>
+            <div class="mpic">
+                <img src="images/index2018/mpic5.jpg" class="width100">
+                <div class="link1">
+                    <a href="attend/adult.htm"></a>
+                </div>
+                <div class="link2">
+                    <a href="html/zuopin_qingshaonian.htm"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mb_m">
+        <img src="images/mobile/m_06.jpg" class="width100">
+    </div>
+</div>
+<div id="footer"></div>
+
+<!--<script src="js/common/headfoot.js"></script>-->
+<iframe src="html/frame/footer.html" frameborder="no" border="0" scrolling="no" align="center" width="100%" height="170"></iframe>
+
+<script type="text/javascript">
+    $(".tabs li").each(function (index, element) {
+        $(this).click(function () {
+            if (!$(this).hasClass("active")) {
+                $(this).siblings().removeClass("active");
+                $(this).addClass("active");
+                $(".mpic").hide();
+                $(".mpic").eq(index).show();
+
+            }
+
+
+        })
+    });
+
+</script>
+<div class="videoShowContent"></div>
+<div class="videoAlertBox">
+    <a class="videoclose" href="javascript:void(0);">×</a>
+</div>
+<script type="text/javascript">window._satellite && window._satellite.pageBottom();</script>
+</body>
+</html>

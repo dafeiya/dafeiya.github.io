@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>dafeiya@limeng</title>
+    <meta charset="utf-8">
+    <meta name="description" content=""/>
+    <meta name="author" content="limeng">
+    <meta name="keywords" content=""/>
+    <!-- Optimized mobile viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Place favicon.ico and apple-touch-icon.png in root directory -->
+    <link rel="stylesheet" href="../../sshf/style.css"/>
+    <link rel="stylesheet" href="../../sshf/layout.css"/>
+    <link rel="stylesheet" href="../attend/css/main.css"/>
+    <link rel="stylesheet" href="../css/newhf.css">
+
+    <link rel="stylesheet" href="../css/newbar.css">
+    <link href="../css/swpastyle.css?v=20161226" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/newhf.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../css/lb.css"/>
+
+    <script type="text/javascript" src="../js/lib/jquery-1.7.1.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://www.sonystyle.com.cn/js/html5.js"></script><![endif]-->
+    <script type="text/javascript" src="../js/lib/jquery.flexslider-min.js"></script>
+    <script src="../../sshf/respond.min.js"></script>
+    <script type="text/javascript" src="../attend/js/autoSize.js"></script>
+    <script src="../js/lib/satelliteLib.js"></script>
+    <script src="../js/lb.js"></script>
+
+    <style>
+        ul.maodian {
+            clear: both;
+            display: block;
+            overflow: hidden;
+            padding-top: 29px;
+            margin-bottom: 30px;
+        }
+
+        ul.maodian li {
+            width: 104px;
+            float: left;
+            font-size: 18px;
+            color: #ffffff;
+            height: 26px;
+            text-align: center;
+            line-height: 26px;
+        }
+
+        ul.maodian li.first {
+            border-left: 1px solid #c29525;
+        }
+
+        ul.maodian li {
+            border-top: 1px solid #c29525;
+            border-bottom: 1px solid #c29525;
+            border-right: 1px solid #c29525;
+        }
+
+        ul.maodian li.active {
+            background: #c29525;
+        }
+
+        .content_swpa .b_text {
+            clear: both;
+            display: block;
+            overflow: hidden;
+            margin-bottom: 0;
+        }
+
+        .content_swpa h2 {
+            background: url(../images/zuopin/sanjiao.jpg) 0 8px no-repeat;
+            padding-left: 40px;
+            line-height: 50px;
+            font-size: 50px;
+            color: #2c2c2c;
+            font-weight: normal;
+            float: left;
+        }
+
+        .content_swpa a.ck_more {
+            display: block;
+            color: #808080;
+            font-size: 16px;
+            float: right;
+            margin-top: 31px;
+        }
+
+        .pic_xx {
+            width: 100%;
+        }
+
+        .pic_xx ul {
+            width: 100%;
+        }
+
+        .pic_xx ul li {
+            width: 234px;
+            height: auto;
+            float: left;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .pic_xx ul li.last {
+            margin-right: 0px;
+        }
+
+        .pic_xx ul li.no_b {
+            margin-bottom: 0px;
+        }
+
+        .pic_xx1 ul li {
+            width: 312px;
+            height: 204px;
+            float: left;
+            margin-right: 10px;
+            margin-bottom: 0px;
+        }
+
+        .pic_xx2 {
+            width: 474px;
+        }
+
+        .pic_xx2 ul {
+            width: 474px;
+        }
+
+        .pic_xx2 ul li {
+            width: 474px;
+            height: 452px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+        }
+
+        .pic_xx3 {
+            width: 475px;
+            float: left;
+        }
+
+        .pic_xx3 ul {
+            width: 475px;
+        }
+
+        .pic_xx3 ul li {
+            width: 475px;
+            height: 323px;
+            margin-right: 0px;
+            margin-bottom: 9px;
+        }
+
+        .pic_xx4 {
+            width: 960px;
+        }
+
+        .pic_xx4 ul {
+            width: 960px;
+        }
+
+        .pic_xx4 ul li {
+            width: 960px;
+            height: auto;
+            margin-right: 0px;
+            margin-bottom: 9px;
+        }
+
+        .fixx {
+            z-index: 50;
+            top: 70px;
+            position: fixed;
+        }
+
+        .pic_banner {
+            margin-bottom: 0;
+            margin-top: 52px;
+        }
+
+        li.sti {
+            cursor: pointer;
+        }
+
+        .bigimg {
+            background: #000000 none repeat scroll 0 0;
+            display: none;
+            height: 100%;
+            left: 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 11999;
+        }
+
+        .opacity_bg {
+            background-color: rgb(0, 0, 0);
+            border-top: 1px solid transparent;
+            display: none;
+            left: 0;
+            opacity: 1;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 9998;
+        }
+
+        .bigpic {
+            height: 100%;
+        }
+
+        a.pic_close {
+            display: block;
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+
+        a.pic_close1 {
+            display: block;
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+
+        .bigimg1 {
+            background: #000000 none repeat scroll 0 0;
+            display: none;
+            height: 100%;
+            left: 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 11999;
+        }
+
+        .fullImg {
+            display: block;
+            margin: 0 auto;
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        .pic_xx5 ul li.left_b2 {
+            width: 311px;
+            float: left;
+            margin-right: 13px;
+            margin-bottom: 0;
+        }
+
+        .pic_xx5 ul li.left_b2:last-child {
+            margin-right: 0;
+        }
+
+        .textbg {
+            background: url(../images/zuopin/textbg.png) repeat;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 400px;
+            left: 0px;
+        }
+
+        .textbg .p_box {
+            padding-top: 15px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-family: Arial, '微软雅黑';
+        }
+
+        .textbg .p_box .ar_1 {
+            color: #ffffff;
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 6px;
+        }
+
+        .textbg .p_box .ar_2 {
+            color: #b3b3b3;
+            font-size: 20px;
+            line-height: 20px;
+            margin-bottom: 9px;
+        }
+
+        .textbg .p_box .ar_3 {
+            font-size: 12px;
+            color: #b3b3b3;
+            margin-bottom: 6px;
+        }
+
+        .textbg .p_box a.ar_4 {
+            font-size: 16px;
+            color: #ffea00;
+            text-align: right;
+            display: block;
+            outline: 0 none;
+            float: right;
+            width: 70px;
+        }
+
+        .textbg .p_box .ar_5 {
+            font-size: 16px;
+            color: #b3b3b3;
+            float: left;
+            width: 140px;
+        }
+
+        .textbg .p_box .b_fk {
+            width: 27px;
+            height: 3px;
+            background: #ffea00;
+            margin-bottom: 4px;
+        }
+
+        .textbg1 {
+            background: url(../images/zuopin/textbg.png) repeat;
+            width: 312px;
+            height: 204px;
+            position: absolute;
+            top: 400px;
+            left: 0px;
+        }
+
+        .textbg1 .p_box {
+            padding-top: 15px;
+            padding-left: 40px;
+            padding-right: 10px;
+            font-family: Arial, '微软雅黑';
+        }
+
+        .textbg1 .p_box .ar_1 {
+            color: #ffffff;
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 6px;
+        }
+
+        .textbg1 .p_box .ar_2 {
+            color: #b3b3b3;
+            font-size: 20px;
+            line-height: 20px;
+            margin-bottom: 9px;
+        }
+
+        .textbg1 .p_box .ar_3 {
+            font-size: 12px;
+            color: #b3b3b3;
+            margin-bottom: 6px;
+        }
+
+        .textbg1 .p_box a.ar_4 {
+            font-size: 16px;
+            color: #ffea00;
+            text-align: right;
+            display: block;
+            outline: 0 none;
+        }
+
+        .textbg1 .p_box .b_fk {
+            width: 27px;
+            height: 3px;
+            background: #ffea00;
+            margin-bottom: 4px;
+        }
+
+        .textbg2 {
+            background: url(../images/zuopin/textbg.png) repeat;
+            width: 474px;
+            height: 452px;
+            position: absolute;
+            top: 500px;
+            left: 0px;
+        }
+
+        .textbg2 .p_box {
+            padding-top: 30px;
+            padding-left: 40px;
+            padding-right: 10px;
+            font-family: Arial, '微软雅黑';
+        }
+
+        .textbg2 .p_box .ar_1 {
+            color: #ffffff;
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 30px;
+        }
+
+        .textbg2 .p_box .ar_2 {
+            color: #b3b3b3;
+            font-size: 20px;
+            line-height: 20px;
+            margin-bottom: 20px;
+        }
+
+        .textbg2 .p_box .ar_3 {
+            font-size: 16px;
+            color: #b3b3b3;
+            margin-bottom: 40px;
+        }
+
+        .textbg2 .p_box a.ar_4 {
+            font-size: 16px;
+            color: #ffea00;
+            text-align: right;
+            display: block;
+            outline: 0 none;
+        }
+
+        .textbg2 .p_box .b_fk {
+            width: 27px;
+            height: 3px;
+            background: #ffea00;
+            margin-bottom: 15px;
+        }
+
+        .textbg3 {
+            background: url(../images/zuopin/textbg.png) repeat;
+            width: 100%;
+            height: 452px;
+            position: absolute;
+            top: 500px;
+            left: 0px;
+        }
+
+        .textbg3 .p_box {
+            padding-top: 30px;
+            padding-left: 40px;
+            padding-right: 10px;
+            font-family: Arial, '微软雅黑';
+        }
+
+        .textbg3 .p_box .ar_1 {
+            color: #ffffff;
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 30px;
+        }
+
+        .textbg3 .p_box .ar_2 {
+            color: #b3b3b3;
+            font-size: 20px;
+            line-height: 20px;
+            margin-bottom: 20px;
+        }
+
+        .textbg3 .p_box .ar_3 {
+            font-size: 16px;
+            color: #b3b3b3;
+            margin-bottom: 40px;
+        }
+
+        .textbg3 .p_box a.ar_4 {
+            font-size: 16px;
+            color: #ffea00;
+            text-align: right;
+            display: block;
+            outline: 0 none;
+        }
+
+        .textbg3 .p_box .b_fk {
+            width: 27px;
+            height: 3px;
+            background: #ffea00;
+            margin-bottom: 15px;
+        }
+
+        #stitle1, #stitle2, #stitle5 {
+            height: 452px;
+            background: #2d2d2d;
+        }
+
+        #stitle4 {
+            height: auto;
+            background: #2d2d2d;
+        }
+
+        .info {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            width: 100%;
+            display: none;
+        }
+
+        .info_m {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        .page_mk {
+            padding: 30px 20px 0px 20px;
+            font-size: 20px;
+            color: #fff;
+            float: left;
+        }
+
+        .page_mk span {
+            color: #F30;
+        }
+
+        .page_mk sub, .page_mk sup {
+            font-size: 20px;
+        }
+
+        .i_con {
+            padding-top: 16px;
+            padding-bottom: 16px;
+            width: 88%;
+            font-size: 14px;
+            line-height: 22px;
+            color: #FFF;
+            float: left;
+        }
+
+        .zk {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            text-indent: -9999px;
+            width: 64px;
+            height: 54px;
+            background: url(../images/zuopin2017/zk.png) no-repeat;
+            padding: 0 10px 10px 0;
+        }
+
+        .sq {
+            display: block;
+            position: absolute;
+            right: 20px;
+            top: 36px;
+            text-indent: -9999px;
+            width: 41px;
+            height: 22px;
+            background: url(../images/zuopin2016/sq.png) no-repeat;
+        }
+
+        .flexslider {
+            position: relative;
+            height: auto;
+            overflow: hidden;
+            background: url(../images/shouye/loading.gif) 50% no-repeat;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .slides {
+            position: relative;
+            z-index: 1;
+        }
+
+        .slides li {
+            height: auto;
+            position: relative;
+        }
+
+        #lb1 {
+            display: block;
+        }
+
+        #lb2 {
+            display: none;
+        }
+
+        .videomore {
+            position: absolute;
+            right: 9px;
+            top: 30px;
+            color: #fff;
+            font-size: 16px;
+            display: block;
+        }
+
+        .mobile {
+            width: 100%;
+            display: none;
+        }
+
+        .mb_m {
+            width: 100%;
+        }
+
+        .mheader {
+            background: #000;
+        }
+
+        .mb_header {
+            padding: 10px 0px;
+            padding-left: 10px;
+        }
+
+        .mb_header img {
+            width: 30%;
+        }
+
+        @media screen and (max-width: 800px) {
+            .flexslider {
+                position: relative;
+                height: auto;
+                overflow: hidden;
+                background: url(../images/shouye/loading.gif) 50% no-repeat;
+            }
+
+            .slides {
+                position: relative;
+                z-index: 1;
+            }
+
+            .slides li {
+                height: auto;
+            }
+
+            #lb1 {
+                display: none;
+            }
+
+            #lb2 {
+                display: block;
+            }
+
+            .flex-direction-nav {
+                position: absolute;
+                z-index: 3;
+                width: 100%;
+                top: 30%;
+            }
+
+            .flex-direction-nav li a {
+                display: block;
+                width: 30px;
+                height: 30px;
+                overflow: hidden;
+                cursor: pointer;
+                position: absolute;
+            }
+
+            .flex-direction-nav li a.flex-prev {
+                left: 5%;
+                background: url(../images/shouye/prev.png) center center no-repeat;
+                background-size: 100% auto;
+            }
+
+            .flex-direction-nav li a.flex-next {
+                right: 5%;
+                background: url(../images/shouye/next.png) center center no-repeat;
+                background-size: 100% auto;
+            }
+
+            .flex-direction-nav li a.flex-prev:hover {
+                background: url(../images/shouye/prev_hover.png) no-repeat;
+                background-size: 100% auto;
+            }
+
+            .flex-direction-nav li a.flex-next:hover {
+                background: url(../images/shouye/next_hover.png) no-repeat;
+                background-size: 100% auto;
+            }
+
+            .flex-control-nav {
+                bottom: 10%;
+            }
+
+            .feature {
+                display: none;
+            }
+
+            .mobile {
+                display: block;
+            }
+
+            .nav_z {
+                display: none;
+            }
+
+            .width960 {
+                width: 98%;
+                overflow: hidden;
+                margin: 0 auto;
+            }
+
+            .wangjie {
+                display: none;
+            }
+
+            ul.maodian li {
+                margin-bottom: 10px;
+                border: 1px solid #c29525;
+                margin-right: 6px;
+            }
+
+            .textbg {
+                top: 100%;
+                width: 100%;
+                height: 100%;
+            }
+
+            .textbg1 {
+                width: 100%;
+                height: 100%;
+            }
+
+            .textbg .p_box a.ar_4 {
+                position: absolute;
+                right: 10px;
+                bottom: 10px;
+            }
+
+            .pic_xx5 {
+                width: 100%;
+            }
+
+            .pic_xx5 ul {
+                width: 100%;
+            }
+
+            .pic_xx5 ul li.left_b2 {
+                width: 50%;
+                float: left;
+                margin-right: 0;
+                margin-bottom: 0;
+            }
+
+            .videomore {
+                position: absolute;
+                right: 9px;
+                top: 20px;
+                color: #fff;
+                font-size: 14px;
+            }
+
+            #stitle1, #stitle2, #stitle4, #stitle5 {
+                height: auto;
+            }
+
+            .pic_xx ul li img {
+                width: 100%;
+            }
+
+            .pic_banner {
+                margin-top: 20px;
+            }
+
+            .left_b {
+                width: 100%;
+                float: none;
+            }
+
+            .title img {
+                width: 30%;
+            }
+
+            .pic_xx ul li {
+                width: 48%;
+                margin-right: 2%;
+                height: auto;
+                margin-bottom: 10px;
+            }
+
+            .right_b {
+                width: 100%;
+                float: none;
+            }
+
+            .pic_xx2 {
+                width: 100%;
+            }
+
+            .pic_xx2 ul {
+                width: 100%;
+            }
+
+            .pic_xx2 ul li {
+                width: 100%;
+                margin-top: 10px;
+            }
+
+            .left_b1 {
+                width: 100%;
+                float: none;
+            }
+
+            .right_b1 {
+                width: 100%;
+                float: none;
+            }
+
+            .title .more {
+                top: 6px;
+                font-size: 14px;
+            }
+
+            a.pic_close {
+                width: 30px;
+            }
+
+            .zk {
+                width: 55px;
+                margin-right: 10px;
+                background-size: 100% auto;
+            }
+
+            .info_m {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .title .more {
+                top: 0px;
+            }
+
+            .pic_xx1 ul li {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .pic_xx1 ul li img {
+                width: 100%;
+            }
+
+            .title img {
+                width: 40%;
+            }
+
+        }
+
+
+    </style>
+
+    <script type="text/javascript">
+        function showbig(src) {
+            $(".fullImg").remove();
+            $("<img class=\'fullImg\'  src='https://www.sonystyle.com.cn/sonyswpa/\&quot;\&quot;'  >").appendTo(".bigpic");
+
+            $(".bigpic").find("img").attr("src", "images/list2018/" + src);
+            $("#m0,.opacity_bg").css("display", "block")
+        }
+
+        var infors = new Array()
+        infors[0] = "“深邃大地”是一段始于 2016 年 5 月的个人旅程。我骑着一匹黑色的骡子沿着西西里岛的小路旅行，从 Nebrodi 启程，沿途经过 Madonie 和 Peloritani，一直到达 Sicani 山脉。骡子行走的道路是一条类似小径的乡村公路，但也适宜驮畜行走。在现代化的公路网络发展起来之前，它是连接城镇与农村的纽带和商路。直到大约五十年前，骡子在西西里岛的乡村生活中一直发挥着重要作用，为当地农民提供了就业机会和帮助。由于受到经济危机的影响，许多人开始回归乡村，尤其是年轻人。他们选择用农耕来应对这段艰难的历史时期，种植当地农作物和养殖牲畜，创造出一种新的农村经济。这个项目分为两个部分，一部分探索了依然生活在偏远地区的当地社区，另一部分描绘了一张新的版图，记录了古老骡子小路上遗留的印记。最后一次更新可以追溯到上世纪五十年代。这个拍摄项目还在进行中。<br>© Roselena Ramistella，意大利，2018 年索尼世界摄影大赛专业组自然世界与野生动物类一等奖获得者"
+        infors[1] = "马背叼羊是阿富汗一项暴力而古老的民间娱乐活动，骑手们激烈抢夺一具动物的尸体，然后扔到一个指定地点。自美国为首的盟军攻入阿富汗并推翻塔利班政权已经过去了十六年，如今这项运动由对立的军阀掌控，为了在这个再次变得四分五裂、动荡不安的国家维持自己的权力，他们可以不惜任何代价。<br>© Balazs Gardi，匈牙利，2018 年索尼世界摄影大赛专业组体育运动类一等奖获得者"
+        infors[2] = "罗兴亚族在若开邦 (Rakhine) 的境遇更加恶化。8 月 25 日，400 多座房屋遭到焚毁，最近两周内，有将近 125,000 名罗兴亚族难民从缅甸逃往孟加拉国。国际组织报道了一些侵犯人权的指控，并有传言称缅甸军方实施就地处决政策。自若开邦的冲突爆发至今，已有超过 400,000 名罗兴亚族穆斯林从缅甸逃到孟加拉国。这些照片反映了他们在位于孟加拉国考克斯集市 (Cox's Bazaar) 的 Balukhali 难民营里的生活。<br>© Mohd Samsul Mohd Said ，马来西亚，2018 年索尼世界摄影大赛专业组时事新闻类一等奖获得者"
+        infors[3] = "思珀吉翁学院 (Spurgeons Academy) 坐落在基贝拉 (Kibera) 贫民窟的中心，这里狭窄的街道和小巷形成一个错综复杂的迷宫。每到星期三，学生们会把椅子和长凳搬出教室，并清扫地板。校服换成了色彩靓丽的服装。然后，老师 Mike Wamaya 来到教室，学生们各就各位，一只手扶着水泥墙壁，就好像扶着芭蕾舞房里的横杆。一台小型便携式音箱传出古典音乐，授课便开始了。芭蕾舞课是 Annos Africa 和 One Fine Days 慈善组织在肯尼亚的贫民窟地区开展的慈善活动的一部分。在内罗毕，它们与两所位于基贝拉的学校和一所位于玛萨瑞 (Mathare) 的学校开展合作。玛萨瑞是另一个更加靠近市中心的贫民窟。跳舞是孩子们表现自己的一种方式，并且坚定了他们对生活的信心，让他们相信自己能够有所作为。如今，有些孩子每周有几天时间在位于内罗毕上层社区一家名为“肯尼亚舞蹈中心”（Dance center Kenya）的工作室里跳舞，并在一所寄宿学校里生活。他们的舞蹈天赋帮助自己摆脱了贫民窟里的恶劣条件。<br>© Fredrik Lerneryd，瑞典，2018 年索尼世界摄影大赛专业组当代问题类一等奖获得者"
+        infors[4] = "如此难以开采、却被执意开采出来并运往遥远他乡的材料极为罕见。在意大利大理石矿藏最丰富的地区阿普安阿尔卑斯山 (Apuan Alps) ，石料的储备量简直令人难以置信。从古罗马和米开朗基罗用这种石料雕刻大部分雕塑作品的时代开始，这里就出现了成百上千座采石场。如今，由于沙特阿拉伯和其他海湾国家的需求，这项贸易正在蓬勃发展。该地区宏伟采石场的照片揭示了它们独有的孤立世界：美丽、奇异、严峻。这是一个独立的白色世界，工业与自然共存。<br>© Luca Locatelli，意大利，2018 年索尼世界摄影大赛专业组风光类一等奖"
+        infors[5] = "我为第二轮要求拍摄的照片系列是一组诗意的摆拍照，展现了人们背负着环境中塑料废品的重担。我希望通过这些照片来展示我们必须采取的行动，无论污染是否正在以这样的速度加剧。我还希望照片中的人物所付出的努力能够激发人们改变环境中的塑料废品累积状况。白雪覆盖的广袤区域象征着塑料废品的庞大数量与人类有限立足之地的对比。我的创作过程以 AIR 策略的三条原则为指导：通过表现应该怎样防治污染来实现“Avoid（避免）”，通过人类参与的可行而持久的解决方案实现“Intercept”（截断），在摆拍照片的拍摄中人物之间的合作实现“Redesign”（重新设计）。这些照片于 2018 年 2 月在加拿大魁北克省的下圣劳伦斯地区拍摄。照片中的人物是从事回收工作的朋友、熟人和工作人员，他们同意参与此项目的拍摄。每一次邂逅，我都会讲解关于该项目的事情以及塑料废品对环境的影响。<br>© Samuel Bolduc，加拿大，2018 年索尼世界摄影大赛学生组一等奖"
+        infors[6] = "这张照片是 2017 年 10 月 22 日在我家附近的悬崖上拍摄的。它是用 iPhone 7 手机拍摄的，拍摄的原因是，在我看来，黑白照片能够展现生命更加丰富的细节。这张照片展现了目前我在家里和在学校的状态。尽管拥有社交团体和温馨的家庭，我常常会独自一人去观察身边的状况，并一直深陷其中。透过悬崖上茂密的树林看到的人影象征着在当今社会坚持自我的勇气，而且即便你已经置身其中，也可能会被排挤出来。<br>© Megan Johnson，美国，2018 年索尼世界摄影大赛青少年组一等奖（主题：你的环境）"
+        infors[7] = "© 周建光，中国大陆，2018索尼世界摄影大赛公开组后期类入围者和中国国家专项奖三等奖得主"
+        infors[8] = "照片于2017年在安徽省合肥市滨湖区会展中心拍摄。当时正在举办一场文化演出。演出结束后，孩子们一完成表演，一些年龄较小的孩子马上展现出儿童的天性，开始快乐地奔跑玩耍，而几个年龄稍长的孩子则聚在一起。<br>©  周啸勤，中国大陆，2018索尼世界摄影大赛公开组文化类入围者和中国国家专项奖二等奖得主"
+        infors[9] = "台风过后的东京。云层被至高无上的阳光驱散，整个城市略带羞涩地沐浴在阳光下。我站在东京晴空塔的观景台上，眼前的美景令我深受触动。<br>©  吴赵庭，中国大陆，2018索尼世界摄影大赛公开组建筑类入围者和中国国家专项奖一等奖得主"
+        infors[10] = "为航空研究而在德国柏林Adlershof建造的竖直风洞，建于1934至1936年期间。照片拍摄于2017年1月9日16:26，当时夜幕已经降临。其实我早就想拍摄这样一张照片，这个计划在脑海里已经有两年多，却一直苦没有机会……因为柏林很少下雪。<br>© Andreas Pohl，德国，2018索尼世界摄影大赛公开组建筑类一等奖"
+        infors[11] = "为18届亚运会修建的新游泳馆刚刚在雅加达Gelora Bung Karno体育中心落成。该届亚运会将由雅加达和巨港联合举办。我是在一位跳水运动员的训练课上捕捉到这一瞬间的。<br>© Fajar Kristianto，印度尼西亚，2018索尼世界摄影大赛公开组瞬间类一等奖和印度尼西亚国家专项奖得主"
+        infors[12] = "正当我要离开红杉国家公园时，我的眼角瞥到一处雾气缭绕的迷人空地。我不假思索地拿起相机跑过去拍照。当我到达那片空地时，我听到细枝折断的声音，这确实让我有些害怕，因为红杉国家公园里有黑熊出没，而且游客每到一处都会受到警告。当我转过身来，幸运的是我并没有看到熊，而是一只好奇的骡鹿正朝我走来，边走边欢快地咀嚼着自己的美餐。不一会儿又有几只骡鹿与它汇合，我们便站在一起相互打量。那是今年秋天我在加利福尼亚州旅行期间经历的最美妙的时刻。<br>© Justyna Zdunczyk，波兰，2018索尼世界摄影大赛公开组野生动物类一等奖和波兰国家专项奖得主"
+        infors[13] = "德国汉堡。2017年春。附近社区里一位白发苍苍，但依旧优雅十足的女士。她永远时尚艳丽、容光焕发、面带笑容，从不怨天尤人，尽管每一天对她来说都是艰难的挑战。她与最好的朋友——她的小狗——从来形影不离。<br>© Manuel Armenis，德国，2018索尼世界摄影大赛公开组街拍类一等奖和德国国家专项奖得主"
+        infors[14] = "埃米尔是为Paypal拍摄的时尚照片，展现出冷漠傲慢而又恰到好处的姿态，流露出对Wes Anderson的致敬。<br>© Nick Dolding，英国，2018索尼世界摄影大赛公开组人像类一等奖和英国国家专项奖得主"
+
+        function showbig1(src, num) {
+            $(".fullImg").remove();
+            $("<img class=\'fullImg\'  src='https://www.sonystyle.com.cn/sonyswpa/\&quot;\&quot;'  >").appendTo(".bigpic");
+            $(".bigpic").find("img").attr("src", "images/list2018/" + src);
+            $("#m1,.opacity_bg").css("display", "block");
+            $(".i_con").html(infors[num]);
+        }
+
+
+        $(document).ready(function () {
+            var bodyHeight = $(document).height();
+            $(".pic_close,.opacity_bg").click(function () {
+                $(".bigimg,.opacity_bg").css("display", "none");
+                $(".info").hide();
+                $(".zk").show();
+            });
+            $(".opacity_bg").css({"height": bodyHeight});
+            $(".zk").click(function () {
+                $(this).hide();
+                $(this).prev(".info").show();
+            })
+            $(".info .sq").click(function () {
+                $(this).parent().hide();
+                $(this).parent().next(".zk").show();
+            })
+        });
+
+
+    </script>
+    <script type="text/javascript">
+
+        function QueryString(item) {
+            /* var sValue=location.search.match(new RegExp("[\?\&]"+item+"=([^\&]*)(\&?)","i"))
+             return sValue?sValue[1]:sValue*/
+            var sValue = window.location.hash.match(new RegExp("[\#\&]" + item + "=([^\&]*)(\&?)", "i"));
+            if (sValue != null) {
+                var tss = sValue[1].split("#")[0];
+                return tss ? tss : sValue
+            }
+        }
+
+        $(document).ready(function () {
+            $(".stitle1").click(function () {
+                s1 = $("#stitle1").offset().top;
+                $('html,body').animate({scrollTop: s1})
+                ;
+            })
+
+            $(".stitle2").click(function () {
+                s2 = $("#stitle2").offset().top;
+                $('html,body').animate({scrollTop: s2})
+                ;
+            })
+            $(".stitle3").click(function () {
+                s3 = $("#stitle3").offset().top;
+                $('html,body').animate({scrollTop: s3})
+                ;
+            })
+
+            $(".stitle4").click(function () {
+                s4 = $("#stitle4").offset().top;
+                $('html,body').animate({scrollTop: s4})
+                ;
+            })
+            $(".stitle5").click(function () {
+                s5 = $("#stitle5").offset().top;
+                $('html,body').animate({scrollTop: s5})
+                ;
+            })
+
+
+            $(".sti").each(function () {
+                $(this).click(function () {
+                    if (!$(this).hasClass("active")) {
+                        $(".sti").removeClass("active");
+                        $(this).addClass("active");
+                    }
+                });
+
+            });
+
+
+            if (QueryString("p")) {
+                var temp_s = QueryString("p");
+
+                if (temp_s == 1) {
+                    $(".stitle1").trigger("click");
+                }
+                if (temp_s == 2) {
+                    $(".stitle2").trigger("click");
+                }
+                if (temp_s == 3) {
+                    $(".stitle3").trigger("click");
+                }
+                if (temp_s == 4) {
+                    $(".stitle4").trigger("click");
+                }
+                if (temp_s == 5) {
+                    $(".stitle5").trigger("click");
+                }
+
+
+            }
+
+
+        });
+
+
+    </script>
+    <script type="text/javascript">
+        function gotoClass(cls) {
+            var stopd = $("." + cls).offset().top;
+            $("html,body").animate({"scrollTop": stopd + 0});
+
+
+        }
+
+        $(".go_top").click(function () {
+
+            $("html,body").animate({"scrollTop": 0});
+        })
+
+        $(window).scroll(function () {
+            var stopp = $(window).scrollTop();
+            var sts = $(".width960").offset().top + 39;
+            if (stopp > sts) {
+                $(".fixnav").addClass("fixx");
+            } else {
+                $(".fixnav").removeClass("fixx");
+            }
+
+        })
+    </script>
+</head>
+<body>
+<div class="bigimg" id="m0">
+    <div class="bigpic">
+        <img class="fullImg" src="../images/zuopin/zhuanyezu/b_1.jpg">
+    </div>
+    <a href="javascript:void(0)" class="pic_close"><img src="../images/zuopin/close.jpg"></a>
+
+</div>
+<div class="bigimg" id="m1">
+    <div class="bigpic">
+        <img class="fullImg" src="../images/zuopin/zhuanyezu/b1.jpg">
+        <div class="info clearfix">
+            <div class="info_m">
+                <div class="page_mk">
+                    <!--<span><sup>1</sup>/<sub>1</sub></span>-->
+                </div>
+                <div class="i_con"></div>
+            </div>
+            <a class="sq" href="javascript:void(0)">收起</a>
+        </div>
+        <a class="zk" href="javascript:void(0)">展开</a>
+    </div>
+    <a href="javascript:void(0)" class="pic_close"><img src="../images/zuopin/close.jpg"></a>
+</div>
+
+<div class="opacity_bg"></div>
+<div id="main" class="feature">
+    <div id="header"></div>
+</div>
+<div class="opacity_bg"></div>
+
+<div id="block-wpo-gallery-wpo-gallery-node-slideshow" class="block block-wpo-gallery block--node-specific-gallery ">
+    <div class="node-slideshow">
+        <div class="gallery-item">
+            <img class="slick-image" src="../images/carousel/kv2.jpg" alt="" title=""/>
+            <a href="javascript:void(0)">
+                <span class="caption">
+                    <span>中国专项奖 周啸勤 中国 二等奖</span>
+                </span>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <img class="slick-image" src="../images/carousel/kv3.jpg" alt="" title=""/>
+            <a href="javascript:void(0)">
+                <span class="caption">
+                    <span>中国专项奖 周建光 中国 三等奖</span>
+                </span>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <img class="slick-image" src="../images/carousel/kv4.jpg" alt="" title=""/>
+            <a href="javascript:void(0)">
+                <span class="caption">
+                    <span>公开组 Veselin Atanasov Bulgaria 1<sup>st</sup> Place</span>
+                </span>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <img class="slick-image" src="../images/carousel/kv5.jpg" alt="" title=""/>
+            <a href="javascript:void(0)">
+                <span class="caption">
+                    <span>专业学生组 Samuel Bolduc Canada 1<sup>st</sup> Place</span>
+                </span>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <img class="slick-image" src="../images/carousel/kv6.jpg" alt="" title=""/>
+            <a href="javascript:void(0)">
+                <span class="caption">
+                    <span>青少年组 Megan Johnson United States of America 1<sup>st</sup> Place</span>
+                </span>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <img class="slick-image" src="../images/carousel/kv7.jpg" alt="" title=""/>
+            <a href="javascript:void(0)">
+                <span class="caption">
+                    <span>专业组 Fredrik Lerneryd Sweden 1<sup>st</sup> Place</span>
+                </span>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <img class="slick-image" src="../images/carousel/kv1.jpg" alt="" title=""/>
+            <a href="javascript:void(0)">
+                <span class="caption">
+                    <span>中国专项奖 吴赵庭 中国 一等奖</span>
+                </span>
+            </a>
+        </div>
+
+    </div>
+
+</div>
+<!--JSflexslider-->
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.flexslider').flexslider({
+            slideshowSpeed: 5000,
+            animation: "slide",
+            slideDirection: "horizontal",
+            slideDirection: "vertical",
+            directionNav: true,
+            pauseOnAction: false
+        });
+
+        $(".pic_xx li").each(function () {
+            $(this).hover(function () {
+                $(this).find(".textbg").stop().animate({"top": 0})
+            }, function () {
+                var thh = $(this).height();
+                $(this).find(".textbg").stop().animate({"top": (thh)})
+            });
+        });
+    });
+</script>
+
+<!--JSflexslider-->
+
+
+<!--navbg 导航-->
+<div class="nav_z">
+    <div class="nav_bgr" id="nav_top">
+        <div class="nav_bg">
+            <a href="../index.htm"><span class="nav_0">首页</span></a>
+            <a href="zuopin_list.htm" class="nactive"><span class="nav_0">2018年获奖作品展示</span></a>
+            <a href="../attend/index.htm"><span class="nav_0">赛事介绍</span></a>
+            <a href="xunzhan.htm"><span class="nav_0">巡展掠影</span></a>
+            <a target="_blank" style=" width:133px; float:right;"
+               href="https://www.sonystyle.com.cn/products/promotion/young/index.htm"><img
+                    src="../images/shouye/nav_r.jpg"></a>
+
+            <a target="_blank"
+               style=" position:absolute; right:-155px; top:0; z-index:1; display:block; background:#fff; height:69px;"
+               href="https://www.sonystyle.com.cn/products/alphauniverse/index.htm">
+                <div><img src="../images/shouye/wlogo.jpg"></div>
+            </a>
+        </div>
+
+    </div>
+</div>
+<div class="mobile">
+
+    <div class="mb_m nav">
+        <div class="nav_c">
+            <img src="../images/mobile/nav2_0414.jpg">
+            <a href="../index.htm" class="navc_1"></a>
+            <a href="zuopin_list.htm" class="navc_2"></a>
+            <a href="../attend/index.htm" class="navc_3"></a>
+            <a href="xunzhan.htm" class="navc_4"></a>
+        </div>
+
+    </div>
+
+</div>
+
+<!--navbg 导航-->
+
+
+<!--主体内容-->
+<div class="content_swpa">
+    <div class="width960">
+        <a href="list_more.htm" class="wangjie">往届获奖作品展示</a>
+        <ul class="maodian" id="stitle3">
+            <li class="sti stitle3 first active">中国专项奖</li>
+            <li class="sti stitle1">专业组</li>
+            <li class="sti stitle2">公开组</li>
+            <li class="sti stitle4">学生组</li>
+            <li class="sti stitle5">青少年组</li>
+        </ul>
+
+        <div class="pic_banner clearfix">
+            <div class="fixnav">
+                <dl><a href="../attend/index.htm" target="_blank">赛事介绍</a></dl>
+                <dl><a href="../attend/zhuanye.htm">专业组</a></dl>
+                <dl><a href="../attend/gongkai.htm">公开组</a></dl>
+                <dl><a href="../attend/adult.htm">青少年组</a></dl>
+
+                <dl><a href="../attend/student.htm">学生组</a></dl>
+                <dl><a href="../attend/rules.htm">条款和条件</a></dl>
+                <dl><a href="../sm/extrance_m.htm" class="last"
+                       onclick="var s=s_gi('sonycnstyle');s.tl(this,'o','style:sonyswpa:zuopin_list.htm:join_button')"
+                       style="font-size:18px; font-weight:bold;">立即参赛</a></dl>
+                <!-- <dl><a href="javascript:void(0)" class="last" onclick="showdialog('guize');var s=s_gi('sonycnstyle');s.tl(this,'o','style:sonyswpa:zuopin_list.htm:join_button')" style="font-size:18px; font-weight:bold;">立即参赛</a></dl>-->
+            </div>
+
+            <div class="title">
+                <img src="../images/list/title1.png">
+
+            </div>
+            <div class="pic_xx pic_xx1">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)"><img src="../images/list2018/p3.jpg"></a>
+                        <div class="textbg textbg1">
+                            <div class="p_box">
+                                <div class="ar_1">
+                                    &nbsp;<br>
+                                    吴赵庭
+                                </div>
+
+                                <div class="ar_2">中国</div>
+                                <div class="b_fk"></div>
+                                <div class="ar_3">&nbsp;</div>
+                                <a class="ar_4" href="javascript:showbig1('p3b.jpg','9')">查看大图</a>
+                                <div class="ar_5">一等奖</div>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="../images/list2018/p2.jpg"></a>
+                        <div class="textbg textbg1">
+                            <div class="p_box">
+                                <div class="ar_1">
+                                    &nbsp;<br>
+                                    周啸勤
+                                </div>
+
+                                <div class="ar_2">中国</div>
+                                <div class="b_fk"></div>
+                                <div class="ar_3">&nbsp;</div>
+                                <a class="ar_4" href="javascript:showbig1('p2b.jpg','8')">查看大图</a>
+                                <div class="ar_5">二等奖</div>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="last">
+                        <a href="javascript:void(0)"><img src="../images/list2018/p1.jpg"></a>
+                        <div class="textbg textbg1">
+                            <div class="p_box">
+                                <div class="ar_1">
+                                    &nbsp;<br>
+                                    周建光
+                                </div>
+
+                                <div class="ar_2">中国</div>
+                                <div class="b_fk"></div>
+                                <div class="ar_3">&nbsp;</div>
+                                <a class="ar_4" href="javascript:showbig1('p1b.jpg','7')">查看大图</a>
+                                <div class="ar_5">三等奖</div>
+                            </div>
+
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="pic_banner clearfix" id="stitle1">
+            <div class="left_b clearfix">
+                <div class="title">
+                    <img src="../images/list/title2.jpg">
+                    <a class="videomore" href="video_list2018.htm">获奖作品视频赏析 ></a>
+                    <a onClick="var s=s_gi('sonycnstyle');s.tl(this,'o','style:products:swpa:index.htm:zhuanye')"
+                       href="zuopin.htm" class="more">查看更多 ></a>
+                </div>
+                <div class="pic_xx">
+
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)"><img src="../images/list2018/v2.jpg"></a>
+
+                            <div class="textbg">
+                                <div class="p_box">
+                                    <div class="ar_1">
+                                        Roselena <br>Ramistella
+                                    </div>
+
+                                    <div class="ar_2">Italy</div>
+                                    <div class="b_fk"></div>
+                                    <div class="ar_3">&nbsp;</div>
+                                    <a class="ar_4" href="javascript:showbig1('v2b.jpg','0')">查看大图</a>
+                                    <div class="ar_5">1<sup>st</sup> Place</div>
+                                </div>
+
+                            </div>
+
+
+                        </li>
+                        <li class="last">
+                            <a href="javascript:void(0)"><img src="../images/list2018/v3.jpg"></a>
+                            <div class="textbg">
+                                <div class="p_box">
+                                    <div class="ar_1">
+                                        Balazs <br>Gardi
+                                    </div>
+
+                                    <div class="ar_2">Hungary</div>
+                                    <div class="b_fk"></div>
+                                    <div class="ar_3">&nbsp;</div>
+                                    <a class="ar_4" href="javascript:showbig1('v3b.jpg','1')">查看大图</a>
+                                    <div class="ar_5">1<sup>st</sup> Place</div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="no_b">
+                            <a href="javascript:void(0)"><img src="../images/list2018/v4.jpg"></a>
+                            <div class="textbg">
+                                <div class="p_box">
+                                    <div class="ar_1">
+                                        Mohd Samsul <br> Mohd Said
+                                    </div>
+
+                                    <div class="ar_2">Malaysia</div>
+                                    <div class="b_fk"></div>
+                                    <div class="ar_3">&nbsp;</div>
+                                    <a class="ar_4" href="javascript:showbig1('v4b.jpg','2')">查看大图</a>
+                                    <div class="ar_5">1<sup>st</sup> Place</div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="last no_b">
+                            <a href="javascript:void(0)"><img src="../images/list2018/v5.jpg"></a>
+                            <div class="textbg">
+                                <div class="p_box">
+                                    <div class="ar_1">
+                                        Fredrik <br>Lerneryd
+                                    </div>
+
+                                    <div class="ar_2">Sweden</div>
+                                    <div class="b_fk"></div>
+                                    <div class="ar_3">&nbsp;</div>
+                                    <a class="ar_4" href="javascript:showbig1('v5b.jpg','3')">查看大图</a>
+                                    <div class="ar_5">1<sup>st</sup> Place</div>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="right_b clearfix">
+
+                <div class="pic_xx pic_xx2 clearfix">
+
+                    <ul>
+                        <li class="last">
+                            <a href="javascript:void(0)"><img src="../images/list2018/v1.jpg"></a>
+                            <div class="textbg textbg2">
+                                <div class="p_box">
+                                    <div class="ar_1">
+                                        Luca <br>Locatelli
+                                    </div>
+
+                                    <div class="ar_2">Italy</div>
+                                    <div class="b_fk"></div>
+                                    <div class="ar_3">&nbsp;</div>
+                                    <a class="ar_4" href="javascript:showbig1('v1b.jpg','4')">查看大图</a>
+                                    <div class="ar_5">1<sup>st</sup> Place</div>
+                                </div>
+
+                            </div>
+
+
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="pic_banner clearfix" id="stitle2">
+            <div class="right_b1 clearfix">
+                <div class="title">
+                    <img src="../images/list/title3.jpg">
+                    <a class="videomore" href="video_list2018.htm">获奖作品视频赏析 &gt;</a>
+                    <a onclick="var s=s_gi('sonycnstyle');s.tl(this,'o','style:products:swpa:index.htm:gongkai')"
+                       href="zuopin_gongkai.htm" class="more">查看更多 &gt;</a>
+
+                </div>
+                <div class="pic_xx">
+
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)"><img src="../images/list2018/m2.jpg"></a>
+
+                            <div class="textbg">
+                                <div class="p_box">
+                                    <div class="ar_1">
+                                        Fajar<br> Kristianto
+                                    </div>
+
+                                    <div class="ar_2">Indonesia</div>
+                                    <div class="b_fk"></div>
+                                    <div class="ar_3">&nbsp;</div>
+                                    <a class="ar_4" href="javascript:showbig1('m2b.jpg','11')">查看大图</a>
+                                    <div class="ar_5">Motion</div>
+                                </div>
+
+                            </div>
+
+
+                        </li>
+                        <li class="last">
+                            <a href="javascript:void(0)"><img src="../images/list2018/m3.jpg"></a>
+                            <div class="textbg">
+                                <div class="p_box">
+                                    <div class="ar_1">
+                                        Justyna <br>Zdunczyk
+                                    </div>
+
+                                    <div class="ar_2">Poland</div>
+                                    <div class="b_fk"></div>
+                                    <div class="ar_3">&nbsp;</div>
+                                    <a class="ar_4" href="javascript:showbig1('m3b.jpg','12')">查看大图</a>
+                                    <div class="ar_5">Wildlife</div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="no_b">
+                            <a href="javascript:void(0)"><img src="../images/list2018/m4.jpg"></a>
+                            <div class="textbg">
+                                <div class="p_box">
+                                    <div class="ar_1">
+                                        Manuel <br>Armenis
+                                    </div>
+
+                                    <div class="ar_2">Germany</div>
+                                    <div class="b_fk"></div>
+                                    <div class="ar_3">&nbsp;</div>
+                                    <a class="ar_4" href="javascript:showbig1('m4b.jpg','13')">查看大图</a>
+                                    <div class="ar_5">Street</div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="last no_b">
+                            <a href="javascript:void(0)"><img src="../images/list2018/m5.jpg"></a>
+                            <div class="textbg">
+                                <div class="p_box">
+                                    <div class="ar_1">
+                                        Nick <br>Dolding
+                                    </div>
+
+                                    <div class="ar_2">United Kingdom</div>
+                                    <div class="b_fk"></div>
+                                    <div class="ar_3">&nbsp;</div>
+                                    <a class="ar_4" href="javascript:showbig1('m5b.jpg','14')">查看大图</a>
+                                    <div class="ar_5">Portraiture</div>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="left_b1 clearfix">
+
+                <div class="pic_xx pic_xx2 clearfix">
+
+                    <ul>
+                        <li class="last">
+                            <a href="javascript:void(0)"><img src="../images/list2018/m1.jpg"></a>
+                            <div class="textbg textbg2" style="top: 452px;">
+                                <div class="p_box">
+                                    <div class="ar_1">
+                                        Andreas<br> Pohl
+                                    </div>
+
+                                    <div class="ar_2">Germany</div>
+                                    <div class="b_fk"></div>
+                                    <div class="ar_3">&nbsp;</div>
+                                    <a class="ar_4" href="javascript:showbig1('m1b.jpg','10')">查看大图</a>
+                                    <div class="ar_5">Architecture</div>
+                                </div>
+
+                            </div>
+
+
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="pic_banner clearfix" id="stitle4">
+            <div class="clearfix">
+                <div class="title">
+                    <img src="../images/list/title4.jpg">
+                    <a class="videomore" href="video_list2018.htm">获奖作品视频赏析 ></a>
+                    <a onClick="var s=s_gi('sonycnstyle');s.tl(this,'o','style:products:swpa:index.htm:xuesheng')"
+                       href="zuopin_xuesheng.htm" class="more">查看更多 ></a>
+                </div>
+
+
+            </div>
+            <div class="clearfix">
+
+                <div class="pic_xx pic_xx5 clearfix">
+
+                    <ul>
+                        <li class="last left_b2">
+                            <a href="javascript:void(0)"><img src="../images/list2018/v7.jpg"></a>
+                            <div class="textbg">
+                                <div class="p_box">
+                                    <div class="ar_1">
+                                        Samuel Bolduc
+                                    </div>
+
+                                    <div class="ar_2">Canada</div>
+                                    <div class="b_fk"></div>
+                                    <div class="ar_3">&nbsp;</div>
+                                    <a class="ar_4" href="javascript:showbig1('v7b.jpg','5')">查看大图</a>
+                                    <div class="ar_5" style="width:240px;"></div>
+                                </div>
+
+                            </div>
+
+
+                        </li>
+                        <li class="last left_b2">
+                            <a href="javascript:void(0)"><img src="../images/list2018/v8.jpg"></a>
+                            <div class="textbg">
+                                <div class="p_box">
+                                    <div class="ar_1">
+                                        Samuel Bolduc
+                                    </div>
+
+                                    <div class="ar_2">Canada</div>
+                                    <div class="b_fk"></div>
+                                    <div class="ar_3">&nbsp;</div>
+                                    <a class="ar_4" href="javascript:showbig1('v8b.jpg','5')">查看大图</a>
+                                    <div class="ar_5" style="width:240px;"></div>
+                                </div>
+
+                            </div>
+
+
+                        </li>
+                        <li class="last left_b2">
+                            <a href="javascript:void(0)"><img src="../images/list2018/v9.jpg"></a>
+                            <div class="textbg">
+                                <div class="p_box">
+                                    <div class="ar_1">
+                                        Samuel Bolduc
+                                    </div>
+
+                                    <div class="ar_2">Canada</div>
+                                    <div class="b_fk"></div>
+                                    <div class="ar_3">&nbsp;</div>
+                                    <a class="ar_4" href="javascript:showbig1('v9b.jpg','5')">查看大图</a>
+                                    <div class="ar_5" style="width:240px;"></div>
+                                </div>
+
+                            </div>
+
+
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="pic_banner clearfix" id="stitle5">
+            <div class="clearfix">
+                <div class="title">
+                    <img src="../images/list/title5.jpg">
+                    <a class="videomore" href="video_list2018.htm">获奖作品视频赏析 ></a>
+                    <a onClick="var s=s_gi('sonycnstyle');s.tl(this,'o','style:products:swpa:index.htm:qingshaonian')"
+                       href="zuopin_qingshaonian.htm" class="more">查看更多 ></a>
+                </div>
+
+
+            </div>
+            <div class="left_b1 clearfix">
+
+                <div class="pic_xx pic_xx4 clearfix">
+
+                    <ul>
+                        <li class="last">
+                            <a href="javascript:void(0)"><img src="../images/list2018/v10.jpg"></a>
+                            <div class="textbg textbg3">
+                                <div class="p_box">
+                                    <div class="ar_1">
+                                        Megan Johnson
+                                    </div>
+
+                                    <div class="ar_2">United States of America</div>
+                                    <div class="b_fk"></div>
+                                    <div class="ar_3">&nbsp;</div>
+                                    <a class="ar_4" href="javascript:showbig1('v10b.jpg','6')">查看大图</a>
+                                    <div class="ar_5"></div>
+                                </div>
+
+                            </div>
+
+
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<!--主体内容-->
+
+
+<div id="footer">
+</div>
+
+</div>
+
+<style>
+    .popbox {
+        display: none;
+    }
+
+    .popbox .close {
+        display: block;
+        padding: 10px 18px;
+        font-size: 0.27rem;
+        background: rgba(0, 0, 0, 1);
+        color: #FFF;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        top: 0px;
+    }
+
+    .popbox .rulestx {
+        width: 600px;
+        background: #FFF;
+    }
+
+    .popbox .rulestx h4 {
+        padding: 30px 0;
+        text-align: center;
+        font-size: 0.35rem;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .popbox .rulestx .mianrules {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .popbox .rulestx .mianrules p {
+        font-size: 0.18rem;
+        color: #000;
+        margin-bottom: 15px;
+    }
+
+    .popbox .rulestx .mianrules p span {
+        font-weight: bold;
+    }
+</style>
+<div class="popbox" id="guize">
+    <a href="javascript:void(0)" class="close">×</a>
+    <div class="rulestx">
+        <h4>免责声明：</h4>
+        <div class="mianrules">
+            <p>您接下来访问的网站（https://swpa.sony.com.cn/user及其下级域名网站，“SWPA网站”）包含的所有内容和服务（包括但不限于图片、数据、链接、条款和条件等）均由SWPA的主办方World
+                Photography Awards Limited（世界摄影组织，“WPO”）提供并独立承担责任。</p>
+            <p><span>您通过SWPA网站填写或提交的任何信息（包括但不限于您的个人信息、参赛作品等）均由WPO按照可适用的法律法规的要求以及您与WPO之间的条款进行收集和使用，索尼及索尼关联企业将不涉及任何有关您的个人信息的收集、保管或使用等环节。</span>
+            </p>
+            <p>索尼（中国）有限公司（"索尼"）仅为您参加SWPA或与WPO开展活动提供便利的平台，不代表索尼和/或索尼关联企业对SWPA网站的内容和服务和/或WPO的行为做出任何保证。<span>您通过SWPA网站与WPO发生的任何法律行为，由您与WPO自行承担全部的责任。对于您因使用SWPA网站或提供个人信息而遭受的任何直接或间接的损失，索尼及索尼关联企业不承担任何责任。</span>
+            </p>
+            <p><input name="" type="checkbox" value=""
+                      onclick="javascript:window.location.href='https://swpa.sony.com.cn/user'">我已仔细阅读并同意接受上述条款。</p>
+        </div>
+    </div>
+</div>
+
+
+<script src="../js/lib/jquery.bpopup-0.7.0.min.js"></script>
+<script>
+    var showdialog = function (id) {
+        var $id = $("#" + id);
+
+        $id.bPopup({
+            /*        speed: 650,
+                    transition: 'slideIn',
+                    transitionClose: 'slideBack'*/
+            fadeSpeed: 'slow', //can be a string ('slow'/'fast') or int
+            followSpeed: 1500, //can be a string ('slow'/'fast') or int
+            modalColor: 'black'
+        });
+        $id.find(".close").unbind("click").click(function () {
+            $id.bPopup().close();
+        });
+
+    }
+</script>
+
+<script type="text/javascript" src="../../sshf/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="../../sshf/scrollTo.js"></script>
+<script>
+    $(window).scroll(function () {
+        var ttop = $(".nav_z").offset().top;
+        if ($(window).scrollTop() > ttop) {
+            $(".nav_bgr").addClass("fixed");
+        } else {
+            $(".nav_bgr").removeClass("fixed");
+        }
+
+
+    })
+    $(document).ready(function () {
+        $("img.lazy").lazyload({
+            effect: "fadeIn"
+        });
+    })
+</script>
+<script src="../js/common/headfoot.js"></script>
+<!-- SiteCatalyst code version: H.10.
+Copyright 1997-2007 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<script type="text/javascript">window._satellite && window._satellite.pageBottom();</script>
+</body>
+</html>
