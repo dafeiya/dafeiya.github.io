@@ -1,0 +1,36 @@
+.main .search-label {
+    width: 300px;
+    float: left;
+    margin: 16px 0 0 20px;
+    position: relative;
+    height: 28px;
+    background-color: rgba(255, 255, 255, 0.125);
+    border-radius: 2px;
+}
+.main .search-label input {
+    width: 270px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 2px 6px;
+    height: 28px;
+    font-size: 16px;
+}
+.main .search-label input:focus{outline:none}
+.main .search-label img {
+    position: absolute;
+    right: 5px;
+    top: 4px;
+}
+.main .active-label {
+    background-color: #ffffff;
+    width: 470px;
+}
+.main .active-label input {
+    width: 470px;
+    border: none;
+    color: #333333;
+}
+.main .active-label img {
+    display: none;
+}

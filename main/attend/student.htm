@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dafeiya@limeng</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="description" content="" />
+	<meta name="author" content="limeng">
+	<meta name="keywords" content="" />
+	<!-- Optimized mobile viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Place favicon.ico and apple-touch-icon.png in root directory -->
+	<link rel="stylesheet" href="../../sshf/style.css" />
+	<link rel="stylesheet" href="../../sshf/layout.css" />
+	<link rel="stylesheet" href="css/main.css" />
+     <link rel="stylesheet" href="../css/newhf.css"> 
+
+	<link href="../css/swpastyle.css?v=20160701" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="../js/lib/jquery-1.7.1.min.js"></script>
+    <script src="js/autoSize.js"></script>
+	<!--[if lt IE 9]><script src="https://www.sonystyle.com.cn/js/html5.js"></script><![endif]-->
+	<script type="text/javascript" src="../js/lib/jquery.flexslider-min.js"></script>
+	<script src="../../sshf/respond.min.js"></script>
+    <style>
+    ul.maodian{ clear:both; display:block; overflow:hidden;   padding-top:29px; margin-bottom:30px;}
+    ul.maodian li{ width:104px; float:left; font-size:18px; color:#ffffff; height:26px; text-align:center; line-height:26px; }
+	ul.maodian li.first{ border-left:1px solid  #c29525;}
+	ul.maodian li{ border-top:1px solid  #c29525;  border-bottom:1px solid  #c29525; border-right:1px solid  #c29525;  }
+	ul.maodian li.active{ background:#c29525;}
+	.content_swpabg{font-family:"Microsoft YaHei","Arial","Hiragino Sans GB",sans-serif; background:url(../images/video2016/bg.jpg) repeat; padding-bottom:30px;}
+	.pic_banner{ margin-bottom:0;}
+	li.sti{ cursor:pointer;}
+.flexslider{position:relative;height:auto;overflow:hidden;background:url(images/shouye/loading.gif) 50% no-repeat; overflow:hidden; width:100%;}
+.slides{position:relative;z-index:1;}
+.slides li{height:auto; position:relative;}	
+#lb1{ display:block;}
+#lb2{ display:none;}
+@media screen and (max-width: 800px){	
+.flexslider{position:relative;height:auto;overflow:hidden;background:url(../images/shouye/loading.gif) 50% no-repeat;}
+.slides{position:relative;z-index:1;}
+.slides li{height:auto;}
+#lb1{ display:none;}
+#lb2{ display:block;}
+	
+.flex-direction-nav{position:absolute;z-index:3;width:100%;top:30%;}
+.flex-direction-nav li a{display:block;width:30px; height:30px;overflow:hidden;cursor:pointer;position:absolute;}
+.flex-direction-nav li a.flex-prev{left:5%;background:url(../images/shouye/prev.png) center center no-repeat; background-size:100% auto; }
+.flex-direction-nav li a.flex-next{right:5%;background:url(../images/shouye/next.png) center center no-repeat;background-size:100% auto;}	
+.flex-direction-nav li a.flex-prev:hover{background:url(../images/shouye/prev_hover.png) no-repeat;background-size:100% auto;}
+.flex-direction-nav li a.flex-next:hover{background:url(../images/shouye/next_hover.png) no-repeat;background-size:100% auto;}
+.flex-control-nav{ bottom:10%;}
+}
+
+    </style>
+    
+	<script type="text/javascript">
+    function gotoClass(cls){
+        var stopd = $("."+cls).offset().top;
+        $("html,body").animate({"scrollTop":stopd+0});
+        
+        
+        }
+    $(".go_top").click(function(){
+        
+        $("html,body").animate({"scrollTop":0});
+        })
+    
+    $(window).scroll(function(){
+        var stopp = $(window).scrollTop();
+        var sts = $(".content_swpabg").offset().top+39;
+        if(stopp > sts ){
+            $(".fixnav").addClass("fixd");
+            }else{
+            $(".fixnav").removeClass("fixd");
+            }
+        
+        })	
+    </script>	
+<script src="js/lib/satelliteLib.js"></script>
+</head>
+<body>
+		<div id="main" class="feature">
+        <div id="header"></div>
+        </div>
+
+
+
+
+<!--JSflexslider-->
+<div id="block-wpo-gallery-wpo-gallery-node-slideshow" class="block block-wpo-gallery block--node-specific-gallery ">
+    <div class="node-slideshow">
+        <div class="gallery-item">
+            <img class="slick-image" src="../images/carousel/kv2.jpg" alt="" title=""/>
+            <a href="javascript:void(0)">
+                <span class="caption">
+                    <span>中国专项奖 周啸勤 中国 二等奖</span>
+                </span>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <img class="slick-image" src="../images/carousel/kv3.jpg" alt="" title=""/>
+            <a href="javascript:void(0)">
+                <span class="caption">
+                    <span>中国专项奖 周建光 中国 三等奖</span>
+                </span>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <img class="slick-image" src="../images/carousel/kv4.jpg" alt="" title=""/>
+            <a href="javascript:void(0)">
+                <span class="caption">
+                    <span>公开组 Veselin Atanasov Bulgaria 1<sup>st</sup> Place</span>
+                </span>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <img class="slick-image" src="../images/carousel/kv5.jpg" alt="" title=""/>
+            <a href="javascript:void(0)">
+                <span class="caption">
+                    <span>专业学生组 Samuel Bolduc Canada 1<sup>st</sup> Place</span>
+                </span>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <img class="slick-image" src="../images/carousel/kv6.jpg" alt="" title=""/>
+            <a href="javascript:void(0)">
+                <span class="caption">
+                    <span>青少年组 Megan Johnson United States of America 1<sup>st</sup> Place</span>
+                </span>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <img class="slick-image" src="../images/carousel/kv7.jpg" alt="" title=""/>
+            <a href="javascript:void(0)">
+                <span class="caption">
+                    <span>专业组 Fredrik Lerneryd Sweden 1<sup>st</sup> Place</span>
+                </span>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <img class="slick-image" src="../images/carousel/kv1.jpg" alt="" title=""/>
+            <a href="javascript:void(0)">
+                <span class="caption">
+                    <span>中国专项奖 吴赵庭 中国 一等奖</span>
+                </span>
+            </a>
+        </div>
+        
+    </div>
+
+</div>
+<link rel="stylesheet" href="../css/lb.css"/>
+<script src="../js/lb.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.flexslider').flexslider({
+		slideshowSpeed: 5000, 
+		 animation: "slide",
+		  slideDirection: "horizontal", 
+		slideDirection: "vertical",
+		directionNav: true,
+		pauseOnAction: false
+	});
+	
+$(".pic_xx li").each(function(){
+		$(this).hover(function(){
+			
+			$(this).find(".textbg").stop().animate({"top":0})
+		
+			},function(){
+				
+			var thh = $(this).height();
+			$(this).find(".textbg").stop().animate({"top":(thh)})
+		
+			});
+		
+		});		
+	
+	
+	
+});
+</script>
+
+<!--JSflexslider-->
+
+
+<!--navbg 导航-->
+<div class="nav_z">
+<div class="nav_bgr"  id="nav_top">
+	<div class="nav_bg">
+    	<a href="../index.htm"><span class="nav_0">首页</span></a>
+        <a href="../html/zuopin_list.htm" ><span class="nav_0">2018年获奖作品展示</span></a>
+        <a href="index.htm" target="_blank" class="nactive"><span class="nav_0">赛事介绍</span></a>
+        <a href="../html/xunzhan.htm"><span class="nav_0">巡展掠影</span></a>
+        <a target="_blank" style=" width:133px; float:right;" href="https://www.sonystyle.com.cn/products/promotion/young/index.htm"><img src="../images/shouye/nav_r.jpg"></a>
+        
+        <a target="_blank" style=" position:absolute; right:-155px; top:0; z-index:1; display:block; background:#fff; height:69px;" href="https://www.sonystyle.com.cn/products/alphauniverse/index.htm">
+        <div><img src="../images/shouye/wlogo.jpg"></div>
+        </a>
+    </div>
+
+</div>
+</div>
+<div class="mobile">
+
+<div class="mb_m nav">
+        	<div class="nav_c">
+        		<img src="../images/mobile/nav3_0414.jpg" >
+                <a href="../index.htm" class="navc_1"></a>
+                <a href="../html/zuopin_list.htm" class="navc_2"></a>
+                <a href="index.htm"  class="navc_3"></a>
+                <a href="../html/xunzhan.htm" class="navc_4"></a>
+            </div>
+            
+        </div>
+
+</div>
+
+<!--navbg 导航-->
+
+
+<!--主体内容-->
+<div class="content_swpabg">
+	<div class="w960">
+    <div class="new914">
+        <div class="fixnav">
+            <dl><a href="index.htm" target="_blank"  class="tlink1">赛事介绍</a></dl>
+            <dl><a href="zhuanye.htm" class="tlink2">专业组</a></dl>
+            <dl><a href="gongkai.htm" class="tlink3">公开组</a></dl>
+            <dl><a href="adult.htm" class="tlink4">青少年组</a></dl>
+            
+            <dl><a class="on">学生组</a></dl>
+            <dl><a href="rules.htm" class="tlink7">条款和条件</a></dl>
+            <dl><a href="../sm/extrance_m.htm" onclick="var s=s_gi('sonycnstyle');s.tl(this,'o','style:sonyswpa:attend:student.htm:join_button')" class="last" style="font-size:18px; font-weight:bold;">立即参赛</a></dl>
+            <!--<dl><a href="javascript:void(0)" class="last" onclick="showdialog('guize');var s=s_gi('sonycnstyle');s.tl(this,'o','style:sonyswpa:attend:student.htm:join_button')" style="font-size:18px; font-weight:bold;">立即参赛</a></dl>-->
+        </div>
+        <div class="grouptitle pdt">学生组</div>
+        <hr>
+        <div class="lg1title">全球摄影学生均可参加</div>
+        <div class="testcont">
+            <ul class="link">
+                <li><em><img src="images/dsc.png"></em><p>学生组免费接受报名，任何修读全日制摄影课程的学生都可以参加</p></li>
+                <li><em><img src="images/dsc.png"></em><p>院校必须注册，该院校的学生才能参加</p></li>
+                <li><em><img src="images/dsc.png"></em><p>第一轮挑战提交3-5张照片/第二轮挑战提交5-10张照片</p></li>
+                <li><em><img src="images/dsc.png"></em><p>1名获奖者及多达10名入围摄影师</p></li>
+            </ul>            
+            <p>学生组是针对摄影学生的世界领先项目。每年，已注册的大学会收到独特的摄影主题，按院校让学生在指定时间内针对主题提交3-5张的一组作品。之后，挑选10名学生入围，然后再向他们提供第二轮即决赛的摄影主题，以让学生针对该主题提交5-10张的一组作品。</p>
+            <div class="borderleft"><p class="mgl">所有10位入围的摄影师将会得到<span>索尼数码影像设备，并飞往伦敦参加索尼世界摄影大赛的颁奖典礼，</span>而获奖者可为其所在院校<span>赢得价值30,000欧元的索尼数码摄影设备。</span></p></div>
+            <p>所有入围的摄影师将与世界摄影组织的编辑和学生组评委一起出席作品系列点评。</p>
+            <p>2019年的第一轮挑战：“变革”<br>学生需要在3-5张照片的摄影论文中探索我们生活的这个世界的演变。主题范围广泛，可涵盖多种主题，包括但不限于：数字、社会、环境、艺术、物理、政治或文化等领域的变革或演变。</p>
+            <div class="borderleft"><p class="mgl">“我谨代表拉罗谢尔和斯泰伦博斯设计和摄影学院（Rochelle and Stellenbosch Academy of design and photography）以及我本人，向你们举办的专业学生摄影项目以及奖项本身表示热烈欢迎。”<span> —— 马克·安东内洛（Mark Antonello），南非斯泰伦博斯大学摄影老师</span></p></div>
+            <p>欲参加2019年索尼世界摄影大赛学生组比赛，您所在学院需要注册。 请查看我们的<a href="../sm/ltk1.htm" target="_blank">参与学院名单</a>， 或者您也可以<a href="../sm/ltk2.htm" target="_blank">现在就注册您所在学院。</a></p>
+        </div>
+        <div class="box">
+            <div class="changebox">
+                <div class="panel-heading">
+                    <a href="javascript:void(0);" class="btn">
+                        <div class="jiao1" style="display:none;"><img src="images/jiao1.png"></div>
+                        <div class="jiao2"><img src="images/jiao2.png"></div>
+                        <div class="panel-title">参赛规则</div>
+                        <div class="panel-metra">点击展开查看参赛规则</div>
+                    </a>
+                </div>
+                <div class="viewpic"><img src="images/adult/img2.jpg"></div>
+            </div>
+            <div class="panel-body" style="display:none;">
+                <div class="testcont">
+                    <p>1.凡是在世界摄影组织所选定的大学就读的摄影专业学生均可参赛。所有参赛者的年龄应在18至30岁间（按比赛的截止日期计算）。所有参赛者在申请参赛时必须确认并同意比赛规则及条款与条件。报名截止时间为2018年11月30日13.00(GMT)。只要参加该比赛，即视为参赛者同意并认可世界摄影组织接收其注册数据。世界摄影组织将按照赛事隐私政策使用所有个人信息。</p>
+                    <p>2.学生须就比赛主题提交三(3)至五(5)张照片。为了能够参赛，相关学校必须进行注册，并且您必须将照片交给导师。导师需将照片提交至<span>www.worldphoto.org</span>。 </p>
+                    <p>3.1 导师应在2018年11月30日之前上传所有的参赛作品。<br>
+3.2 各所参赛大学提交的作品将由世界摄影组织选定的评选小组进行评选，从而选出在决赛中获奖的十(10)所大学。所选出的作品将在2019年2月1日之后，按世界摄影组织认为合适的时候予以公布。<br>
+3.3 获奖的十(10)所大学（每个大学的一名学生和一名导师）将收到邮件通知，并获得前往伦敦参加颁奖礼的往返机票（经济舱）及两晚的免费酒店住宿（日期为2019年4月）。<br>
+3.4 世界摄影组织的决定为本赛事的最终决定，一锤定音。<br>
+3.5 若任何作品不遵守如下要求，即使在作品已通过网站完成提交，世界摄影组织亦保留其取消该作品参赛资格的权利。若参赛作品被拒或存在其他情形，则世界摄影组织不会与参赛者进行对话：<br>
+3.5.1 参赛作品必须是自己创作的原创作品。<br>
+3.5.2 您有权向本赛事提供您的作品。<br>
+3.5.3 参赛作品含有关于提交人或任何其他人的个人身份信息。<br>
+3.5.4 参赛作品含有任何具有侵害权利、具有威胁性、伪造、误导性、侮辱性、具有骚扰性质、损害名誉的、低俗、粗俗、具有煽动性、色情的或渎神的内容。<br>
+3.5.5 参赛作品含有可能构成或鼓励犯罪、引发民事责任或违反法律的内容。<br>
+3.5.6 参赛作品侵犯版权、商标权、合约权或第三人或实体的知识产权，或侵犯人的隐私权或公开权。这意味着参赛作品不得含有：<br>
+3.5.6.1 为第三方所有的商标。<br>
+3.5.6.2 为第三方所有、受版权保护的材料（含电影对话或音乐作品）；以及/或。<br>
+3.5.6.3 名人或其他公众人物（无论在世或已离世）的名字、声音、与之相似的特征或其他特点等。<br>
+3.5.7 参赛者已购买或获得使用参赛作品中照片库的权利。<br>
+3.5.8 参赛作品含有除世界摄影组织外的其他产品或服务相关的商业推广内容。参赛作品不得含有协助拍摄人员的资料。<br>
+3.6 提交参赛作品的每位参赛者均声明并保证：<br>
+3.6.1 他们拥有参赛并在网站上展示其参赛作品的所有必要权利。<br>
+3.6.2 参赛作品不含有或者未侵犯第三人/实体的版权、商标权、合约权或知识产权。每位参赛者同意，因违反以上任一条规定而导致需向任何人支付版税、资费或其他费用的，参赛者将对世界摄影组织进行全额赔偿。<br>
+3.6.3 参赛作品中出现的每个人都已同意您在作品中使用其肖像。任何服装、或其他材料在租借时须取得所有者的同意，且您须取得一切其他相关许可。<br>
+3.6.4 有意删除。<br>
+3.6.5 如果有充分证据表明评分过程存在违法或操纵结果的行为，世界摄影组织有权取消相关参赛作品或参赛者的参评权，且在有必要时将奖项授予其他参赛者。世界摄影组织有最终决定权。<br>
+3.6.6 有意删除。<br>
+3.6.7.1 通过提交参赛作品，即表示每位参赛者都承认版权属于摄影师。索尼世界摄影大赛使用任何照片时都将附上摄影师署名。用途可能包括但不限于：在2019年4月颁奖典礼之后，在最多三年的期限内，将作品用于世界摄影组织的任何媒体或文档。因此，您即授予世界摄影组织非专属、不可撤回的权利，使其可永久地在全球范围内的所有媒体上直接或间接地用于（且只限于）本赛事相关事宜，其中包括但不限于：<br>
+(a) 对参赛作品进行评分。<br>
+(b) 在推广世界摄影组织及由该组织举办的公开展览中展示排名靠前的参赛作品。<br>
+(c) 将参赛作品收录进活动网站和获奖者书籍或类似出版物中。 <br>
+(d) 出于推广世界摄影组织的目的，将参赛作品收录进任何推广本赛事的材料及/或任何由该组织举办的展览中。<br>
+(e) 经作者本人同意，将参赛作品收录进与本赛事及展览相关、由世界摄影组织或任何第三方进行售卖的产品中。<br>
+(f) 将参赛作品再授权给出版社，以进行与本赛事及任何展览相关的再出版活动。<br>
+(g) 允许网站观众通过电脑屏幕、PDA或手机查看作品并将其以电子形式储存于电脑硬盘或PDA或手机内（但不包括与网络相连的任何服务器或储存设备），作非商业的个人用途之用。请参考条款9。<br>
+3.6.7.2 通过提交参赛作品，即表示每位参赛者都明确其有责任标记自己的照片以防遭到滥用；世界摄影组织及其赛事合作伙伴对静态图像的滥用不承担任何责任。<br>
+3.6.8 不论是由网站使用者还是本赛事相关或使用的任何设备或程序而导致信息错误、不准确或不完整的情况，世界摄影组织不对此承担责任；对于任何类型的技术、硬件或软件失误、网络连接丢失、电脑传输错误及与本赛事相关的其他问题或技术故障，世界摄影组织不承担责任。对于参赛作品遭受的任何错误、遗漏、破坏、干扰、删除、缺陷、运营或传输中的延误、沟通失败、盗窃或损坏或未经授权的使用或修改，世界摄影组织不承担责任。对于由于技术问题、人为错误或网络（或任何网站）传输拥堵，或以上几种情况同时出现，导致任何电话网络或线路、电脑在线系统、服务器、电脑设施、软件或任何由于技术问题导致寄发的世界摄影组织的电子邮件发送失败的情况，包括参赛者或其他任何人参加本赛事或下载本赛事的任何资料而造成电脑遭受损坏的情况，世界摄影组织不承担责任。如果出于任何原因，参赛者的参赛作品无法观看或按计划运行，含电脑受病毒感染、程序错误、数据遭篡改、未经授权受到入侵、遭受欺诈行为或出现技术错误，世界摄影组织不承担责任。<br>
+3.6.9无论出于何种情况，世界摄影组织、其母公司、附属公司、分公司及相关公司、活动合作伙伴、其广告及宣传机构或其公司管理人员、总监、员工、股东、代表人员或代理都不对任何形式的破坏或损失承担任何责任，包括由任意参赛者因使用网站造成的直接、间接、突发、继发、特殊或惩罚性损害。上述条款的普遍性不受限制，网站上的所有内容都以“现状”为准，不作出任何类型的担保（明示或默示），包括但不限于，适销性、适用性或无侵权性的相关默示担保。<br>
+3.6.10 在参赛时，参赛者同意参加相关宣传活动，并同意我们出于广告、推广及宣传的目的使用您的名字等信息且无需支付额外费用。每名参赛者一经参赛，若由于其参赛或者领取或使用任何奖品（或与此相关的任何事宜），而使世界摄影组织或其母公司、子公司、关联公司、董事、管理管理人员、员工、赛事合作伙伴和代理商遭受任何及所有的责任、伤害、损失或损害，则参赛者应在法律允许的最大范围内使其免于任何损害。<br>
+3.6.11.所有参赛者须向大赛提供适于打印的高清照片。<br>
+3.6.12.获奖者的奖品不可兑换成现金。<br>
+3.6.13.获奖者名单将在网上公布。<br>
+3.6.14 世界摄影组织的决定为本赛事的最终决定，一锤定音。<br>
+3.7 参赛作品须在2018年6月1日至11月30日间拍摄。<br>
+3.8 参赛者可对参赛作品进行数字处理。您必须提供有关如何更改参赛作品的详细信息。</p>
+
+                
+
+                </div>
+        </div>
+  </div>
+
+
+    </div>
+    </div>
+</div>
+
+<!--主体内容-->
+<div class="mobilemenu">
+    <div class="mobilelt1">
+        <ul>
+            <li><a href="index.htm"  class="tlink1"><img src="images/mobilemenu/menu01_hover.jpg"></a></li>
+            <li><a href="zhuanye.htm" class="tlink2"><img src="images/mobilemenu/menu02_hover.jpg"></a></li>
+            <li><a href="gongkai.htm" class="tlink3"><img src="images/mobilemenu/menu03_hover.jpg"></a></li>
+            <li><a href="adult.htm" class="tlink4"><img src="images/mobilemenu/menu04_hover.jpg"></a></li>
+        </ul>
+        <ul class="mobilelt3">
+            <!--<li><a href="countryprice.htm" class="tlink5"><img src="images/mobilemenu/menu05_hover.jpg"></a></li>-->
+            <li><a href="student.htm" class="tlink6"><img src="images/mobilemenu/menu06.jpg"></a></li>
+            <li><a href="rules.htm" class="tlink7"><img src="images/mobilemenu/menu07_hover.jpg"></a></li>
+        </ul>
+    </div>
+    <ul class="mobilelt2">
+      <!--  <li><a href="javascript:void(0)" onclick="showdialog('guize');var s=s_gi('sonycnstyle');s.tl(this,'o','style:sonyswpa:attend:student.htm:join_button')" class="last"><img src="images/mobilemenu/bak.jpg"></a></li>-->
+    </ul>
+</div>
+	
+
+	
+	<div id="footer">
+	</div>
+    
+<div class="popbox" id="guize">
+	<a href="javascript:void(0)" class="close">×</a>
+	<div class="rulestx">
+        <h4>免责声明：</h4>
+        <div class="mianrules">
+            <p>您接下来访问的网站（https://swpa.sony.com.cn/user及其下级域名网站，“SWPA网站”）包含的所有内容和服务（包括但不限于图片、数据、链接、条款和条件等）均由SWPA的主办方World Photography Awards Limited（世界摄影组织，“WPO”）提供并独立承担责任。</p>
+            <p><span>您通过SWPA网站填写或提交的任何信息（包括但不限于您的个人信息、参赛作品等）均由WPO按照可适用的法律法规的要求以及您与WPO之间的条款进行收集和使用，索尼及索尼关联企业将不涉及任何有关您的个人信息的收集、保管或使用等环节。</span></p>
+            <p>索尼（中国）有限公司（"索尼"）仅为您参加SWPA或与WPO开展活动提供便利的平台，不代表索尼和/或索尼关联企业对SWPA网站的内容和服务和/或WPO的行为做出任何保证。<span>您通过SWPA网站与WPO发生的任何法律行为，由您与WPO自行承担全部的责任。对于您因使用SWPA网站或提供个人信息而遭受的任何直接或间接的损失，索尼及索尼关联企业不承担任何责任。</span></p>
+            <p><input name="" type="checkbox" value="" onclick="javascript:window.location.href='https://swpa.sony.com.cn/user'">我已仔细阅读并同意接受上述条款。</p>
+        </div>
+    </div>	
+</div>    
+	
+
+	<script src="../js/lib/jquery.bpopup-0.7.0.min.js"></script>
+	<script>
+    var showdialog = function(id){
+        var $id = $("#"+id);
+        
+         $id.bPopup({
+    /*        speed: 650,
+            transition: 'slideIn',
+            transitionClose: 'slideBack'*/
+            fadeSpeed: 'slow', //can be a string ('slow'/'fast') or int
+                followSpeed: 1500, //can be a string ('slow'/'fast') or int
+                modalColor: 'black'
+            });
+        $id.find(".close").unbind("click").click(function(){
+            $id.bPopup().close();
+        });
+        
+        }
+    </script>	
+	<script type="text/javascript" src="../../sshf/jquery.lazyload.min.js"></script>
+	<script type="text/javascript" src="../../sshf/scrollTo.js"></script>
+	<script type="text/javascript">
+    $(document).ready(function(){
+     $(".btn").click(function(){
+		 if($(this).hasClass("on")){
+			 $(this).removeClass("on");
+			 $(this).closest(".box").find(".panel-body").slideUp();
+			 $(this).closest(".box").find(".jiao2").show();
+			 $(this).closest(".box").find(".jiao1").hide();
+			 }
+			 else{
+			 $(this).addClass("on")
+			 $(this).closest(".box").find(".panel-body").slideDown();
+			 $(this).closest(".box").find(".jiao2").hide();
+			 $(this).closest(".box").find(".jiao1").show();
+				 }
+		 
+		 })
+    });
+    </script>	
+	<script>
+	$(window).scroll(function(){
+	var ttop = $(".nav_z").offset().top;
+	if($(window).scrollTop() > ttop ){
+		$(".nav_bgr").addClass("fixed");
+		}else{
+		$(".nav_bgr").removeClass("fixed");	
+			}
+	
+	
+	})
+		$(document).ready(function(){
+			$("img.lazy").lazyload({ 
+			    effect : "fadeIn"
+			});
+		})
+	</script>
+	<script src="../js/common/headfoot.js"></script>
+    <!-- SiteCatalyst code version: H.10.
+Copyright 1997-2007 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<script type="text/javascript">window._satellite&&window._satellite.pageBottom();</script>
+</body>
+</html>

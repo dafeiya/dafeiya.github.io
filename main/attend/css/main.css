@@ -1,0 +1,169 @@
+.mobile{ width:100%;  display:none;}
+.mb_m{ width:100%;}
+.mheader{ background:#000;}
+.mb_header{ padding:10px 0px;  padding-left:10px; } 
+.mb_header img{ width:30%; }
+
+.w960{ position:relative;}
+.backlink{ display:block; float:right; text-decoration:underline; color:#ffffff; font-size:0.99rem;}
+
+.maintitle{ color:#fed106; font-size:0.28rem; margin:0 0 3% 0;}
+.pdt{ padding-top:6%;}
+.changebox{ width:926px; margin:40px 0; display:table; content:"";}
+.panel-heading{box-sizing:border-box; -webkit-box-sizing:border-box; width:50%; float:left;}
+.panel-heading a{ padding:39px 20px 60px 20px; display:block; background:#333333; position:relative;}
+.changebox .on{background:#c29525;}
+.changebox .panel-heading .panel-title{ color:#ffffff; font-size:0.28rem; margin-bottom:12px;}
+.changebox .panel-heading .panel-metra{ color:#ffffff; font-size:0.19rem;}
+.viewpic{box-sizing:border-box; -webkit-box-sizing:border-box; width:50%; float:left;}
+
+.panel-heading .jiao1{ position:absolute; bottom:-38px; z-index:15; left:192px; display:none;}
+.panel-heading .jiao2{ position:absolute; top:44px; z-index:15; right:-38px;}
+
+.panel-body{ display:block;}
+.panel-body .mainlist{ width:100%; clear:both; margin-left:15px;}
+.panel-body .mainlist li em{ width:10px; float:left; margin-right:10px; margin-top:4px;}
+.panel-body .mainlist li p{ width:680px; font-size:0.18rem; color:#f2f2f2; float:left;}
+.panel-body .mainlist li p span{ color:#fed206;}
+.panel-body .mainlist li p.t1{ width:885px;}
+.panel-body .mainlist li p.cant{ width:100%; font-size:0.18rem; padding-left:0.18rem;}
+.panel-body .mainlist li{ display:table; content:""; width:100%;}
+.panel-body .mainlist li span a{ display:block; float:left; font-size:0.19rem; color:#fed106; margin-right:5px;}
+.panel-body .detailtest{ font-size:0.18rem; color:#f2f2f2; margin:0 0 15px 15px;}
+.panel-body .detailtest span{ color:#fed106; font-size:0.20rem;}
+.panel-body .detailtest dl.test{ color:#f2f2f2; width:902px; font-size:0.18rem; margin-left:43px;}
+.panel-body .detailtest dl.test span{ color:#fed106;}
+.panel-body .mainlist h3{ font-size:0.27rem; color:#fed106; font-weight:normal; margin-bottom:15px;}
+
+.grouptitle{ font-size:0.28rem; color:#fed106; width:100%;}
+.content_swpabg hr{ border:2px #c29525 solid; margin:15px 0;}
+.borderleft{ border-left:solid #c29525 6px;}
+.lg1title{ font-size:0.24rem; color:#fed106; margin-bottom:3%;}
+.link li em{ width:10px; float:left; margin-right:10px; margin-top:8px;}
+.link li p{ width:680px; font-size:0.18rem; color:#f2f2f2; float:left;}
+.link li{ display:table; content:""; width:100%;}
+.link{ margin-left:15px;}
+.mgl{ margin-left:25px; font-style:oblique;}
+
+.contlist{ width:100%; clear:both; margin-top:55px;}
+.contlist ul{ width:990px; overflow:hidden;}
+.contlist li{ float:left; width:284px; margin-right:30px; margin-bottom:40px; position:relative;}
+.contlist li.main_cp1{ width:462px;}
+.contlist li .namebar{ width:100%; background:rgba(0,0,0,0.8); font-size:0.18rem; color:#ffffff; position:absolute; bottom:0; left:0;}
+.contlist li .namebar .classifyname{ padding:10px 5px; float:left;box-sizing:border-box; -webkit-box-sizing:border-box; width:61%}
+.contlist li .namebar .classifyname2{ padding:10px 5px; float:left;box-sizing:border-box; -webkit-box-sizing:border-box; width:39%}
+.contlist li .namebar .classifyname2.tsx{ text-align:center; width:100%;}
+
+.contlist a{ display:block;}
+.overbg{ width:100%; height:100%; overflow:hidden; background:rgba(0,0,0,0.5); position:absolute; top:0; left:0; z-index:9; opacity:0; -webkit-transition: all 0.4s linear 0s; -o-transition: all 0.4s linear 0s; transition: all 0.4s linear 0s;}
+.overbg:hover{ opacity:1;}
+.contlist .classifytext{ text-align:center; color:#f2f2f2; margin:15px 10px 0 10px; }
+.contlist .txr{ text-align:right;}
+
+.testcont p{ font-size:0.18rem; color:#f2f2f2; margin-bottom:2%;}
+.testcont p span{ color:#fed206;}
+.testcont p a{ color:#fed206; text-decoration:none;}
+
+.lance h4{ font-size:0.27rem; color:#fed106; font-weight:normal; margin-bottom:15px;}
+.lance p{ font-size:0.18rem; color:#f2f2f2; margin-bottom:10px;}
+.lance{ width:100%; padding:20px 0;}
+.lance .cont1{ width:450px;}
+.lance .cont2{ width:440px;}
+.fl{ float:left;}
+.fr{ float:right;}
+
+.rulescont{ margin-bottom:20px;}
+.rulescont h6{ color:#fed106; margin-bottom:1%;font-size:0.24rem; font-weight:normal;}
+.rulescont p{ font-size:0.18rem; color:#ffffff; line-height:30px; margin-bottom:0;}
+.rulescont p span{ color:#fed106;}
+.rulescont p a{ color:#fed106; text-decoration:none;}
+.ruleslink li em{ width:10px; float:left; margin-right:10px; margin-top:14px;}
+.ruleslink li p{ width:680px; font-size:0.19rem; color:#f2f2f2; float:left; margin-bottom:2px;}
+.ruleslink li{ display:table; content:""; width:100%;}
+.ruleslink{ margin-left:15px;}
+
+
+
+.fixnav{ position:absolute; top:120px; left:50%; margin-left:500px; width:171px;}
+.fixd{ position:fixed; top:70px; z-index:9;}
+.fixnav dl{ margin-bottom:2px; width:171px; }
+.fixnav dl a{ padding:7px 20px;color:#ffffff; font-size:0.18rem; display:block; background:rgba(237,192,81,0.1);}
+.fixnav dl a:hover{ background:#ddab30;}
+.fixnav dl a.on{ background:#ddab30;}
+.fixnav dl a.last{ font-size:22px; color:#fed206;}
+.fixnav dl a.last:hover{ color:#FFF;}
+
+.popbox{ display:none;}
+.popbox .close{ display:block; padding:10px 18px; font-size:0.27rem; background:rgba(0,0,0,1); color:#FFF; text-align:center; position:absolute; right:0; top:0px;}
+.popbox .rulestx{ width:600px; background:#FFF;}
+.popbox .rulestx h4{ padding:30px 0; text-align:center; font-size:0.35rem; color:#000; font-weight:bold;}
+.popbox .rulestx .mianrules{ width:90%; margin:0 auto; padding-bottom:30px;}
+.popbox .rulestx .mianrules p{ font-size:0.18rem; color:#000; margin-bottom:15px;}
+.popbox .rulestx .mianrules p span{ font-weight:bold;}
+
+.mobilemenu{ display:none;}
+
+
+.new914{ width:914px;}
+
+@media screen and (max-width: 800px){	
+.new914{ width:100%;}
+
+.feature{ display:none;}
+.mobile{ display:block;}
+.nav_z{ display:none;}
+
+.w960{ overflow:hidden;}
+.width960{ width:98%; overflow:hidden; margin:0 auto;}
+
+.backlink{ display:block; float:right; text-decoration:underline; color:#ffffff; font-size:16px;}
+
+.viewpic{ display:none;}
+.fixnav{ display:none;}
+.panel-heading{width:100%;}
+
+
+.lance .cont1{ width:100%;}
+.lance .cont2{ width:100%;}
+.changebox{ width:100%; margin:10% 0; display:table; content:"";}
+.panel-body .mainlist li p{ width:90%; font-size:0.18rem; color:#f2f2f2; float:left;}
+.panel-body .mainlist li p.t1{ width:90%;}
+.link li p{ width:80%; font-size:0.18rem; color:#f2f2f2; float:left;}
+.panel-body .detailtest dl.test{ color:#f2f2f2; width:90%; font-size:0.18rem; margin-left:5%;}
+.panel-heading a{ padding:5%; display:block; background:#333333; position:relative;}
+
+.mgt{ margin-bottom:5%;}
+.panel-heading .jiao1{ position:absolute; bottom:-20px; z-index:6; left:41%; display:none; width:19%;}
+.panel-heading .jiao1 img{ width:100%;}
+.panel-heading .jiao2{ z-index:-1;}
+
+.ruleslink li p{ width:85%;}
+
+.popbox .rulestx{ width:100%; background:#FFF;}
+
+.contlist ul{ width:102%; overflow:hidden;}
+.contlist li{ float:left; width:48%; margin-right:2%; margin-bottom:2%; position:relative;}
+.panel-body .mainlist{ width:98%; clear:both; margin-left:2%;}
+
+.contlist li.main_cp1{ width:100%;}
+.contlist li .namebar .classifyname{ padding:2%; float:left;box-sizing:border-box; -webkit-box-sizing:border-box; width:100%}
+.contlist li .namebar .classifyname2{ padding:2%; float:left;box-sizing:border-box; -webkit-box-sizing:border-box; width:100%}
+.mobilemenu{ display:block; width:100%; z-index:10; position:fixed; bottom:0; left:0;}
+.mobilemenu li a{ display:block; white-space: nowrap; overflow:hidden; text-overflow: ellipsis; width:100%;}
+.mobilemenu .last{ width:100%;}
+.mobilemenu .mobilelt1{ width:100%; float:left;}
+.mobilemenu .mobilelt2{ width:20%; float:left;}
+.mobilemenu .mobilelt1 li{ float:left; width:25%;}
+.mobilemenu .mobilelt2 li{ float:left; width:100%;}
+.mobilemenu .mobilelt3 li{ float:left; width:25%;}
+}
+@media screen and (max-width: 480px){	
+.title .more{ top:0px;}
+.pic_xx1 ul li{ width:100%; margin-bottom:10px;}
+.pic_xx1 ul li img{ width:100%;}
+.title img{ width:40%;}
+
+
+}
+	
+
