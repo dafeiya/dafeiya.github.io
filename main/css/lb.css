@@ -3056,15 +3056,12 @@ body.node-type-gallery #main-content, body.one-sidebar.sidebar-second.node-type-
 	display: none;
 	font-weight: bold;
 	position: absolute;
-	top: 6%;
-	left: 90%;
-	width: 100%;
-	transform: translate(-50%, -50%);
+	top: 0;
+	right: 0;
+	padding: 20px 30px;
 }
-.block--node-specific-gallery .gallery-item.slick-slide .caption:hover {
+.block--node-specific-gallery .gallery-item.slick-slide .caption:hover span{
 	background-color: rgba(0,0,0,0.2);
-}
-.block--node-specific-gallery .gallery-item.slick-slide .caption:hover span {
 	display: inline-block;
 }
 .block--node-specific-gallery .gallery-badge {
