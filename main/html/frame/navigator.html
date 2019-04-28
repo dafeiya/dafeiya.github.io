@@ -13,7 +13,7 @@
     <script type="text/javascript" src="../../js/lib/jquery-3.2.1.js"></script>
     <script src="../../js/lb.js"></script>
     <script src="../../js/search.js"></script>
-
+    <script src="../../js/lib/jquery.lazyload.min.js"></script>
     <style>
         body {
             margin: 0;
@@ -52,12 +52,64 @@
             $(".nav_bg a").click(function(){
                 $(this).addClass("nactive").siblings().removeClass("nactive");
             })
+
+            $(".nav_0").click(function () {
+                top.frames["iframe_main"].location.href=$(this).data("href");
+            })
         })
+        $(function() {
+             // url = $.ajax({
+             //     type: "get",
+             //     url: "main/images/carousel/%E5%A4%AA%E6%B9%96%E8%A5%BF%E5%B1%B13.png",
+             //     async: true,
+             //     success: function() {
+             //         $("img.lazyLoad").attr("data-original", url.responseText);
+             //         $("img.lazyLoad").lazyload({
+             //             effect: "fadeIn"
+             //         });
+             //     }
+             // });
+         });
+        function lazyLoadImg(imgurlpath,imgid) {
+            var windowUrl = window.URL || window.webkitURL;//处理浏览器兼容性
+            $img=$("#"+imgid);
+            $.ajax({
+                type: "get",
+                url: encodeURI(imgpath),
+                contentType: 'image/*',
+                success: function(data) {
+                    $img.load(function (e) {
+                        windowUrl.revokeObjectURL($img.src);
+                    }).attr("src", windowUrl.createObjectURL(data));
+                }
+            })
+        }
+
+
+        // function imgFun (url, auth, img) {
+        //     var windowUrl = window.URL || window.webkitURL;//处理浏览器兼容性
+        //     var xhr = new XMLHttpRequest();
+        //     xhr.open("GET", url, true);
+        //     xhr.responseType = "blob";
+        //     xhr.setRequestHeader("Authorization", 'Bearer ' + auth.token);
+        //     xhr.onload = function () {
+        //         console.log(this);
+        //         if (this.status == 200) {
+        //             var blob = this.response;
+        //             $(img).load(function (e) {
+        //                 windowUrl.revokeObjectURL(img.src);
+        //             }).attr("src", windowUrl.createObjectURL(blob));
+        //         }
+        //     }
+        //     xhr.send();
+        // }
+
+        // imgFun("/common/download/rgPhoto/" + d.result, auth, $("#rgPhotoImg");
     </script>
 </head>
 
 <body>
-<!--顶部标签-->
+<!--顶部标签栏-->
 <div id="header">
     <div class="content header">
         <div class="main">
@@ -67,11 +119,10 @@
             <label class="search-label">
                 <input type="text" placeholder="Search">
                 <img src="../../../svg/search-key-slash.svg">
-                <span class="test">ceshi</span>
                 <ul class="search-box">
-                    <li>aaaaaa</li>
-                    <li>bbb</li>
-                    <li>cccccccccc</li>
+                    <li>博客</li>
+                    <li>摄影</li>
+                    <li>java jvm</li>
                 </ul>
             </label>
         </div>
@@ -82,7 +133,7 @@
 <div id="block-wpo-gallery-wpo-gallery-node-slideshow" class="block block-wpo-gallery block--node-specific-gallery " style="margin-top: 4px;">
     <div class="node-slideshow">
         <div class="gallery-item">
-            <img class="slick-image" src="../../images/carousel/太湖西山1.jpg"  alt="" title=""/>
+            <img class="slick-image lazyLoad" src="../../images/navigator/太湖西山1.jpg" alt="" title=""/>
             <a href="javascript:void(0)">
                 <span class="caption">
                     <span>太湖西山~苏州</span>
@@ -90,7 +141,7 @@
             </a>
         </div>
         <div class="gallery-item">
-            <img class="slick-image" src="../../images/carousel/太湖西山3.png" alt="" title=""/>
+            <img class="slick-image lazyLoad" src="../../images/navigator/太湖西山3.png" alt="" title=""/>
             <a href="javascript:void(0)">
                 <span class="caption">
                     <span>太湖西山~苏州</span>
@@ -98,7 +149,7 @@
             </a>
         </div>
         <div class="gallery-item">
-            <img class="slick-image" src="../../images/carousel/太湖西山2.png" alt="" title=""/>
+            <img class="slick-image lazyLoad" src="../../images/navigator/太湖西山2.png" alt="" title=""/>
             <a href="javascript:void(0)">
                 <span class="caption">
                     <span>太湖西山~苏州</span>
@@ -106,7 +157,7 @@
             </a>
         </div>
         <div class="gallery-item">
-            <img class="slick-image" src="../../images/carousel/鼋头渚-无锡.png" alt="" title=""/>
+            <img class="slick-image lazyLoad" src="../../images/navigator/鼋头渚-无锡.png" alt="" title=""/>
             <a href="javascript:void(0)">
                 <span class="caption">
                     <span>鼋头渚～无锡</span>
@@ -114,52 +165,26 @@
             </a>
         </div>
         <!--<div class="gallery-item">-->
-            <!--<img class="slick-image" src="../../images/carousel/kv6.jpg" alt="" title=""/>-->
-            <!--<a href="javascript:void(0)">-->
-                <!--<span class="caption">-->
-                    <!--<span>青少年组 Megan Johnson United States of America 1<sup>st</sup> Place</span>-->
-                <!--</span>-->
-            <!--</a>-->
-        <!--</div>-->
-        <!--<div class="gallery-item">-->
-            <!--<img class="slick-image" src="../../images/carousel/kv7.jpg" alt="" title=""/>-->
-            <!--<a href="javascript:void(0)">-->
-                <!--<span class="caption">-->
-                    <!--<span>专业组 Fredrik Lerneryd Sweden 1<sup>st</sup> Place</span>-->
-                <!--</span>-->
-            <!--</a>-->
-        <!--</div>-->
-        <!--<div class="gallery-item">-->
-            <!--<img class="slick-image" src="../../images/carousel/kv1.jpg" alt="" title=""/>-->
-            <!--<a href="javascript:void(0)">-->
-                <!--<span class="caption">-->
-                    <!--<span>中国专项奖 吴赵庭 中国 一等奖</span>-->
-                <!--</span>-->
-            <!--</a>-->
+        <!--<img class="slick-image" src="../../images/carousel/kv6.jpg" alt="" title=""/>-->
+        <!--<a href="javascript:void(0)">-->
+        <!--<span class="caption">-->
+        <!--<span>青少年组 Megan Johnson United States of America 1<sup>st</sup> Place</span>-->
+        <!--</span>-->
+        <!--</a>-->
         <!--</div>-->
     </div>
 </div>
 
-<!--navigator 导航栏-->
+<!--底部声明栏-->
 <div class="nav_z">
     <div class="nav_bgr">
         <div class="nav_bg">
             <!--<a href="#" class="nactive"><span class="nav_0">首页</span></a>-->
-            <a href="#"><span class="nav_0">首页</span></a>
-            <a href="#"><span class="nav_0">摄影之路</span></a>
-            <a href="#"><span class="nav_0">程序生活</span></a>
-            <a href="#"><span class="nav_0">随笔</span></a>
-            <a href="#"><span class="nav_0">关于我</span></a>
-
-            <!--<a target="_blank" style=" width:133px; float:right;"-->
-            <!--href="https://www.sonystyle.com.cn/products/promotion/young/index.htm">-->
-            <!--<img src="../images/shouye/nav_r.jpg"></a>-->
-
-            <!--<a target="_blank"-->
-            <!--style=" position:absolute; right:-155px; top:0; z-index:1; display:block; background:#fff; height:69px;"-->
-            <!--href="https://www.sonystyle.com.cn/products/alphauniverse/index.htm">-->
-            <!--<div><img src="../images/shouye/wlogo.jpg"></div>-->
-            <!--</a>-->
+            <a href="#"><span class="nav_0" data-href="../menu/home/home.html">首页</span></a>
+            <a href="#"><span class="nav_0" data-href="../menu/photo/photo.html">摄影之路</span></a>
+            <a href="#"><span class="nav_0" data-href="../menu/programer/programer.html">程序生活</span></a>
+            <a href="#"><span class="nav_0" data-href="../menu/essay/essay.html">随笔</span></a>
+            <a href="#"><span class="nav_0" data-href="../menu/aboutme/aboutme.html">关于我</span></a>
         </div>
     </div>
 </div>
