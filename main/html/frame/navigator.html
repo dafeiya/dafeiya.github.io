@@ -51,12 +51,12 @@
         $(function () {
             $(".nav_bg a").click(function(){
                 $(this).addClass("nactive").siblings().removeClass("nactive");
-            })
+            });
 
             $(".nav_0").click(function () {
                 top.frames["iframe_main"].location.href=$(this).data("href");
             })
-        })
+        });
         $(function() {
              // url = $.ajax({
              //     type: "get",
