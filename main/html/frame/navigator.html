@@ -10,10 +10,14 @@
     <link rel="stylesheet" href="../../../sshf/layout.css"/>
     <link rel="stylesheet" href="../../css/lb.css"/>
     <link href="../../css/swpastyle.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="../../js/lib/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="../../js/lib/autocomplete/jquery.bigautocomplete.css"/>
+
+    <script type="text/javascript" src="../../js/lib/jquery.min.js"></script>
     <script src="../../js/lb.js"></script>
+    <script src="../../js/lib/autocomplete/jquery.bigautocomplete.js"></script>
     <script src="../../js/search.js"></script>
     <script src="../../js/lib/jquery.lazyload.min.js"></script>
+
     <style>
         body {
             margin: 0;
@@ -56,8 +60,10 @@
             $(".nav_0").click(function () {
                 top.frames["iframe_main"].location.href=$(this).data("href");
             })
+            initFuzzyQuery("FuzzyQuery");
         });
         $(function() {
+
              // url = $.ajax({
              //     type: "get",
              //     url: "main/images/carousel/%E5%A4%AA%E6%B9%96%E8%A5%BF%E5%B1%B13.png",
@@ -85,7 +91,36 @@
             })
         }
 
-
+        function initFuzzyQuery (id) {
+            var $item=$("#"+id);
+            var arr=
+                [{'title':'java',
+                    'name':'dafeiya'
+            },
+                {'title':'network',
+                    'name':'hello'},
+                {'title':'jvm',
+                    'name':'dafeiya123'}];
+            // $.ajax({
+            //     url:"",
+            //     data:{},
+            //     dataType:"json",
+            //     type:"post",
+            //     async:false,
+            //     success:function(data) {
+            //         if(data){
+            //             arr=data;
+            //         }
+            //     }
+            // });
+            $item.bigAutocomplete({
+                width:204,
+                data:arr,
+                callback:function(data){
+                    $item.val(data.name);
+                }
+            });
+        }
         // function imgFun (url, auth, img) {
         //     var windowUrl = window.URL || window.webkitURL;//处理浏览器兼容性
         //     var xhr = new XMLHttpRequest();
@@ -116,15 +151,16 @@
             <a href="https://dafeiya.github.io/"  target="_blank" class="logo">
                 <img src="../../images/common/dafeiya.jpg" width="60px" height="60px" title="dafeiya">
             </a>
-            <label class="search-label">
-                <input type="text" placeholder="Search">
+            <div class="search-label">
+                <input type="text" placeholder="Search"  id="FuzzyQuery" >
+
                 <img src="../../../svg/search-key-slash.svg">
-                <ul class="search-box">
+                <div class="search-box" >
                     <li>博客</li>
                     <li>摄影</li>
                     <li>java jvm</li>
-                </ul>
-            </label>
+                </div>
+            </div>
         </div>
     </div>
 </div>
