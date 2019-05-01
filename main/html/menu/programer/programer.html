@@ -12,18 +12,31 @@
     <script type="application/javascript" src="../../../js/menu/programer.tree.js"></script>
 
     <style>
-        .jstree { overflow:auto; border:1px solid silver; min-height:100px; }
+        .jstree {
+            overflow:auto;
+            border:1px solid silver;
+            min-height:100px;
+            position: absolute;
+            width: 18%;
+        }
+        #pages {
+            position: absolute;
+            top: 8px;
+            left: 22%;
+            right: 0;
+        }
     </style>
     <script>
         $(function () {
             initProgramTree("ProgramTree");
+            $("#pages").load("blog1.html");
         });
     </script>
 </head>
 <body>
-程序生活
 <div id="ProgramTree" class="jstree">
 
 </div>
+<div id="pages"></div>
 </body>
 </html>

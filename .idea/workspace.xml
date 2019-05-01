@@ -3,11 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="720b23b1-8b3f-4556-bbd7-a89ce455222c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/css/lb.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/css/lb.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/css/search.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/html/frame/navigator.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/html/frame/navigator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/js/lib/clock/clock.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/js/lib/clock/clock.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sshf/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/sshf/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/html/menu/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/html/menu/home/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/html/menu/programer/programer.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/html/menu/programer/programer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/js/lib/layer/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/js/lib/layer/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/js/lib/lgallery/css/lgallery.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/js/lib/lgallery/css/lgallery.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/js/lib/lgallery/js/lgallery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/js/lib/lgallery/js/lgallery.min.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,47 +22,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/js/lib/lgallery/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navigator.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="navigator.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/html/frame/navigator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+            <state relative-caret-position="441">
+              <caret line="133" column="33" selection-start-line="133" selection-start-column="33" selection-end-line="133" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="e#1316#1496#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sshf/layout.css">
+      <file leaf-file-name="programer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/html/menu/programer/programer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="420">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sshf/style.css">
+      <file leaf-file-name="blog1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/html/menu/programer/blog1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="252">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="swpastyle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/css/swpastyle.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="147">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/js/lib/layer/layer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="490" column="227" selection-start-line="490" selection-start-column="227" selection-end-line="490" selection-end-column="227" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layer.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/js/lib/layer/theme/default/layer.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret column="1962" lean-forward="true" selection-start-column="1962" selection-end-column="1962" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lgallery.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/js/lib/lgallery/css/lgallery.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-42">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/html/menu/home/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -67,26 +104,8 @@
       <file leaf-file-name="lb.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/css/lb.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="2974" column="17" lean-forward="true" selection-start-line="2974" selection-start-column="17" selection-end-line="2974" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/js/search.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clock.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/js/lib/clock/clock.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="282">
+              <caret line="3955" column="11" selection-start-line="3955" selection-start-column="4" selection-end-line="3955" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -94,8 +113,8 @@
       <file leaf-file-name="lgallery.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/js/lib/lgallery/js/lgallery.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="-189">
+              <caret line="21" column="189" lean-forward="true" selection-start-line="21" selection-start-column="189" selection-end-line="21" selection-end-column="189" />
             </state>
           </provider>
         </entry>
@@ -106,6 +125,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -123,10 +143,23 @@
       <find>button</find>
       <find>light</find>
       <find>FuzzyQuery</find>
-      <find>hello</find>
       <find>main</find>
-      <find>color: rgb(196, 117, 41);</find>
+      <find>hello</find>
+      <find />
+      <find>z-index</find>
+      <find>LGallery</find>
+      <find>.LGallery</find>
       <find>logo</find>
+      <find>gallery-item</find>
+      <find>layui-layer-phimg</find>
+      <find>layui-layer-content</find>
+      <find>layui-layer-photos</find>
+      <find>hover</find>
+      <find />
+      <find>inline-block</find>
+      <find>layui-layer-imgbar</find>
+      <find>none</find>
+      <find>layui-layer-imguide</find>
     </findStrings>
     <replaceStrings>
       <replace>navigator-gallery</replace>
@@ -141,16 +174,24 @@
       <list>
         <option value="$PROJECT_DIR$/main/js/lib/lgallery/css/demo.min.css" />
         <option value="$PROJECT_DIR$/main/js/lib/lgallery/index.html" />
-        <option value="$PROJECT_DIR$/main/js/lib/lgallery/js/lgallery.min.js" />
         <option value="$PROJECT_DIR$/main/js/lib/clock/assets/css/style.css" />
         <option value="$PROJECT_DIR$/main/js/lib/clock/index.html" />
         <option value="$PROJECT_DIR$/main/js/lib/satelliteLib.js" />
         <option value="$PROJECT_DIR$/main/js/lib/clock/moment.min.js" />
         <option value="$PROJECT_DIR$/main/css/search.css" />
         <option value="$PROJECT_DIR$/main/js/lib/clock/clock.css" />
-        <option value="$PROJECT_DIR$/main/css/lb.css" />
         <option value="$PROJECT_DIR$/sshf/layout.css" />
+        <option value="$PROJECT_DIR$/main/js/lib/lgallery/js/lgallery.min.js" />
+        <option value="$PROJECT_DIR$/main/css/lb.css" />
+        <option value="$PROJECT_DIR$/main/js/lib/lgallery/css/lgallery.min.css" />
+        <option value="$PROJECT_DIR$/main/html/menu/home/home.html" />
+        <option value="$PROJECT_DIR$/main/js/lib/layer/layer.js" />
+        <option value="$PROJECT_DIR$/main/js/lib/layer/theme/default/layer.css" />
         <option value="$PROJECT_DIR$/main/html/frame/navigator.html" />
+        <option value="$PROJECT_DIR$/main/html/menu/programer/bolo1.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/main/html/menu/programer/programer.html" />
+        <option value="$PROJECT_DIR$/main/html/menu/programer/blog1.html" />
       </list>
     </option>
   </component>
@@ -164,7 +205,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="63" />
+    <option name="x" value="1983" />
     <option name="y" value="24" />
     <option name="width" value="1857" />
     <option name="height" value="1056" />
@@ -195,36 +236,53 @@
               <item name="dafeiya.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="dafeiya.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dafeiya.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="dafeiya.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="frame" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dafeiya.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="dafeiya.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dafeiya.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="dafeiya.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery-full-text-search-master" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="aboutme" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dafeiya.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="dafeiya.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="lgallery" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="essay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dafeiya.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dafeiya.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dafeiya.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dafeiya.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="programer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,6 +293,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
@@ -296,12 +355,12 @@
       <workItem from="1556637862440" duration="6928000" />
       <workItem from="1556666997085" duration="2000" />
       <workItem from="1556667016686" duration="9481000" />
-      <workItem from="1556690933591" duration="1905000" />
+      <workItem from="1556690933591" duration="22211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18316000" />
+    <option name="totallyTimeSpent" value="38622000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -318,6 +377,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294979" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3291536" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -344,7 +404,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3291536" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,6 +424,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="e#1316#1496#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -414,6 +477,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4893">
           <caret line="233" selection-start-line="233" selection-end-line="233" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="e#1316#1496#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -429,6 +496,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4893">
           <caret line="233" lean-forward="true" selection-start-line="233" selection-end-line="233" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="e#1316#1496#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -462,45 +533,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/js/lib/lgallery/js/lgallery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/js/lib/lgallery/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/js/lib/clock/clock.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="777">
           <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sshf/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/css/swpastyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/css/lb.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="2974" column="17" lean-forward="true" selection-start-line="2974" selection-start-column="17" selection-end-line="2974" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -511,10 +547,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/css/swpastyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sshf/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -525,10 +575,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/css/lb.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="3955" column="11" selection-start-line="3955" selection-start-column="4" selection-end-line="3955" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/js/lib/lgallery/css/lgallery.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/js/lib/lgallery/js/lgallery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="21" column="189" lean-forward="true" selection-start-line="21" selection-start-column="189" selection-end-line="21" selection-end-column="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/js/lib/lgallery/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2142" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="15869" column="12" selection-start-line="15869" selection-start-column="12" selection-end-line="15869" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/html/menu/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/js/lib/layer/layer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="490" column="227" selection-start-line="490" selection-start-column="227" selection-end-line="490" selection-end-column="227" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/js/lib/layer/theme/default/layer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret column="1962" lean-forward="true" selection-start-column="1962" selection-end-column="1962" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/html/frame/navigator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        <state relative-caret-position="441">
+          <caret line="133" column="33" selection-start-line="133" selection-start-column="33" selection-end-line="133" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="e#1316#1496#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/html/menu/programer/programer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/html/menu/programer/blog1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
         </state>
       </provider>
     </entry>

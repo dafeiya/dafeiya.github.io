@@ -6,6 +6,8 @@
     <meta name="description" content=""/>
     <meta name="author" content="limeng">
     <meta name="keywords" content=""/>
+    <script type="text/javascript" src="main/js/lib/jquery.min.js"></script>
+    <script src="main/js/lib/layer/layer.js"></script>
     <style>
         body {
             margin: 0;
@@ -15,14 +17,67 @@
             height: 592px;
         }
         #iframe_main {
-            width: 15%;
+            width: 100%;
             height: 700px;
         }
         #iframe_footer {
             width: 100%;
             background-color: #2b2b3c;
         }
+        .layui-layer-photos .layui-layer-content::-webkit-scrollbar {/*滚动条整体样式*/
+            display:none;
+        }
+        .layui-layer-page .layui-layer-content, .layui-layer-photos .layui-layer-content {
+            overflow: unset;
+        }
+        .layui-layer-imguide {
+            display: inline-block!important;
+        }
+        .layui-layer-photos {
+            top: 150px!important;
+            border-radius: 5px;
+        }
+        .layui-layer-imgnext {
+            right: -156px;
+        }
+        .layui-layer-imgprev {
+            left: -156px;
+        }
+        .layui-layer-imgsee {
+            height: 0;
+        }
+        .layui-layer-imgbar {
+            background-color: rgba(200, 204, 224, 0.73);
+            height: 50px;
+            line-height: 50px;
+        }
+        .layui-layer-imgtit a {
+            color: #573358d4;
+            text-decoration: unset;
+            font-size: 16px;
+        }
+        .layui-layer-imgtit em {
+            float: right;
+            margin-right: 10px;
+            font-size: 15px;
+            color: #573358d4;
+        }
     </style>
+    <script>
+        function showPhotos(images) {
+            layer.photos({
+                area: '1000px',
+                shade: [1, '#c5d0de'],
+                anim: 3,
+                move: false,
+                photos: {
+                    "title": "任务附件预览",
+                    "id": 'showImages',
+                    "data": images
+                }
+            });
+        }
+    </script>
 </head>
 <body>
 <div>
