@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="720b23b1-8b3f-4556-bbd7-a89ce455222c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dafeiya.github.io.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/clock/clock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/clock/clock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/clock/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/css/demo.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/css/lgallery.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/article.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/browsers.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/customize.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/fullscreen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/images.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/keyboard2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/nodependencies.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/preload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/resp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/responsive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/seo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/simple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/img/touch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/lib/lgallery/js/lgallery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/attend/adult.htm" beforeDir="false" afterPath="$PROJECT_DIR$/main/attend/adult.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/attend/countryprice.htm" beforeDir="false" afterPath="$PROJECT_DIR$/main/attend/countryprice.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/attend/gongkai.htm" beforeDir="false" afterPath="$PROJECT_DIR$/main/attend/gongkai.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/attend/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/main/attend/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/attend/rules.htm" beforeDir="false" afterPath="$PROJECT_DIR$/main/attend/rules.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/attend/student.htm" beforeDir="false" afterPath="$PROJECT_DIR$/main/attend/student.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/attend/zhuanye.htm" beforeDir="false" afterPath="$PROJECT_DIR$/main/attend/zhuanye.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/html/frame/navigator.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/html/frame/navigator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/html/list_more.htm" beforeDir="false" afterPath="$PROJECT_DIR$/main/html/list_more.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/html/video_list2018.htm" beforeDir="false" afterPath="$PROJECT_DIR$/main/html/video_list2018.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/html/xunzhan.htm" beforeDir="false" afterPath="$PROJECT_DIR$/main/html/xunzhan.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/html/xunzhan.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/html/xunzhan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/html/zuopin.htm" beforeDir="false" afterPath="$PROJECT_DIR$/main/html/zuopin.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/html/zuopin.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/html/zuopin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/html/zuopin_gongkai.htm" beforeDir="false" afterPath="$PROJECT_DIR$/main/html/zuopin_gongkai.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/html/zuopin_list.htm" beforeDir="false" afterPath="$PROJECT_DIR$/main/html/zuopin_list.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/html/zuopin_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/html/zuopin_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/html/zuopin_qingshaonian.htm" beforeDir="false" afterPath="$PROJECT_DIR$/main/html/zuopin_qingshaonian.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/html/zuopin_xuesheng.htm" beforeDir="false" afterPath="$PROJECT_DIR$/main/html/zuopin_xuesheng.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/js/lib/jstree/dist/jstree.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/js/lib/jstree/dist/jstree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/js/lib/jstree/dist/jstree.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/js/lib/jstree/dist/jstree.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/js/lib/jstree/src/jstree.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/js/lib/jstree/src/jstree.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/js/lib/lgallery/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigator.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/html/frame/navigator.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="17" column="79" lean-forward="true" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/js/search.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moment.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/js/lib/clock/moment.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clock.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/js/lib/clock/clock.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clock.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/js/lib/clock/clock.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="142" column="32" selection-start-line="142" selection-start-column="27" selection-end-line="142" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lgallery.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/js/lib/lgallery/js/lgallery.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>x</find>
+      <find>Lgallery</find>
+      <find>block-wpo-gallery-wpo-gallery-node-slideshow</find>
+      <find>lgallery.min.css</find>
+      <find>TemplateLgallery</find>
+      <find>alt=&quot;Witcher&quot;</find>
+      <find>LGallery-OpenBtn</find>
+      <find>switch-theme</find>
+      <find>14px</find>
+      <find>button</find>
+      <find>light</find>
+      <find>FuzzyQuery</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>navigator-gallery</replace>
+      <replace>10px</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main/js/lib/lgallery/css/demo.min.css" />
+        <option value="$PROJECT_DIR$/main/js/lib/lgallery/index.html" />
+        <option value="$PROJECT_DIR$/main/js/lib/lgallery/js/lgallery.min.js" />
+        <option value="$PROJECT_DIR$/main/js/lib/clock/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/main/js/lib/clock/index.html" />
+        <option value="$PROJECT_DIR$/main/js/lib/clock/clock.css" />
+        <option value="$PROJECT_DIR$/main/js/lib/satelliteLib.js" />
+        <option value="$PROJECT_DIR$/main/js/lib/clock/moment.min.js" />
+        <option value="$PROJECT_DIR$/main/html/frame/navigator.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="63" />
+    <option name="y" value="24" />
+    <option name="width" value="1857" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <sortByType ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dafeiya.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dafeiya.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/js/lib/clock" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="720b23b1-8b3f-4556-bbd7-a89ce455222c" name="Default" comment="" />
+      <created>1556637860714</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556637860714</updated>
+      <workItem from="1556637862440" duration="6928000" />
+      <workItem from="1556666997085" duration="2000" />
+      <workItem from="1556667016686" duration="8748000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15678000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="63" y="24" width="1857" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294979" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3294766" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291536" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" x="802" y="63" width="378" height="1017" id="Project" order="0" visible="true" weight="0.2016529" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="SciView" order="9" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3291536" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main/js/lib/lgallery/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" selection-start-line="27" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/html/frame/navigator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4893">
+          <caret line="233" selection-start-line="233" selection-end-line="233" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/js/lib/clock/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2856">
+          <caret line="136" column="8" selection-start-line="136" selection-start-column="8" selection-end-line="136" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/js/lib/lgallery/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" selection-start-line="27" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/html/frame/navigator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4893">
+          <caret line="233" lean-forward="true" selection-start-line="233" selection-end-line="233" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/js/lib/clock/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2856">
+          <caret line="136" column="8" lean-forward="true" selection-start-line="136" selection-start-column="8" selection-end-line="136" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/js/lib/lgallery/css/demo.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="592" column="5" selection-start-line="592" selection-start-column="5" selection-end-line="592" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/js/lib/lgallery/js/lgallery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/js/lib/clock/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/js/lib/satelliteLib.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="3" column="16568" selection-start-line="3" selection-start-column="16568" selection-end-line="3" selection-end-column="16568" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/js/lib/clock/moment.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/js/lib/clock/clock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="142" column="32" selection-start-line="142" selection-start-column="27" selection-end-line="142" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/js/lib/clock/clock.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/js/lib/lgallery/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/js/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/html/frame/navigator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="17" column="79" lean-forward="true" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="ideajad">
+    <property name="annotate" value="false" />
+    <property name="annotateFully" value="false" />
+    <property name="braces" value="false" />
+    <property name="clear" value="false" />
+    <property name="confirmNavigationTriggeredDecompile" value="true" />
+    <property name="dead" value="true" />
+    <property name="defaultInitializers" value="false" />
+    <property name="dissassemblerOnly" value="false" />
+    <property name="fieldsFirst" value="true" />
+    <property name="fileExtension" value="java" />
+    <property name="fullyQualifiedNames" value="false" />
+    <property name="indentation" value="4" />
+    <property name="intRadix" value="10" />
+    <property name="lineNumbersAsComments" value="true" />
+    <property name="longRadix" value="10" />
+    <property name="maxStringLength" value="64" />
+    <property name="nocast" value="false" />
+    <property name="noclass" value="false" />
+    <property name="nocode" value="false" />
+    <property name="noconv" value="false" />
+    <property name="noctor" value="false" />
+    <property name="nodos" value="false" />
+    <property name="nofd" value="false" />
+    <property name="noinner" value="false" />
+    <property name="nolvt" value="false" />
+    <property name="nonlb" value="false" />
+    <property name="outputDirectory" value="" />
+    <property name="packFields" value="3" />
+    <property name="packImports" value="7" />
+    <property name="prefixNumericalClasses" value="_cls" />
+    <property name="prefixNumericalFields" value="_fld" />
+    <property name="prefixNumericalLocals" value="_lcl" />
+    <property name="prefixNumericalMethods" value="_mth" />
+    <property name="prefixNumericalParameters" value="_prm" />
+    <property name="prefixUnusedExceptions" value="_ex" />
+    <property name="readonly" value="false" />
+    <property name="safe" value="false" />
+    <property name="sort" value="false" />
+    <property name="spaceAfterKeyword" value="false" />
+    <property name="splitStringsAtNewline" value="false" />
+    <property name="useTabs" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
