@@ -14,9 +14,8 @@
 
 #clock{
 	width:325px;
-	height:72px;
-	margin:0 auto 0;
-	/*position:relative;*/
+	height:60px;
+	float: right;
 }
 
 #clock:after{
@@ -33,10 +32,9 @@
 
 #clock .display{
 	text-align:center;
-	padding: 40px 20px 20px;
+	height: 65px;
 	border-radius:6px;
 	position:relative;
-	height: 7px;
 }
 .digits {
 	position: absolute;

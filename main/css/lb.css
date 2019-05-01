@@ -670,7 +670,7 @@ ul.tabs.primary li a.active, ul.tabs.primary li a:hover {
 	padding: 0 0 4em 0;
 }
 .main {
-	min-height: 600px;
+	/*min-height: 600px;*/
 }
 .page {
 	background-color: #fff;
@@ -3005,6 +3005,7 @@ body.node-type-gallery #main-content, body.one-sidebar.sidebar-second.node-type-
 	margin-bottom: 4em;
 }
 .block--node-specific-gallery {
+	height: 450px;
 	position: relative;
 }
 .block--node-specific-gallery .slick-slider {

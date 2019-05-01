@@ -22,37 +22,3 @@
     right: 5px;
     top: 4px;
 }
-.main .active-label {
-    background-color: #f3fcfded;
-    width: 470px;
-    border-radius: 2px 2px 0 0;
-}
-.main .active-label input {
-    width: 470px;
-    border: none;
-    color: #333333;
-}
-.main .active-label img {
-    display: none;
-}
-.main .active-label .search-box {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #f3fcfded;
-    width: 100%;
-    z-index: 9;
-    color: #333333;
-    border: solid 1px #ccc;
-    border-radius: 0 0 2px 2px;
-}
-.main .active-label .search-box li {
-    height: 43px;
-    line-height: 43px;
-    border-bottom: solid 1px #cccccc;
-    font-weight: normal;
-    padding: 0 6px;
-}
-.main .active-label .search-box li:last-child{
-    border-bottom: none;
-}
