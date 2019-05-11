@@ -11,19 +11,18 @@
     <link rel="stylesheet" href="../../css/lb.css"/>
     <link href="../../css/swpastyle.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../../js/lib/autocomplete/jquery.bigautocomplete.css"/>
-    <link rel="stylesheet" href="../../js/lib/lgallery/css/lgallery.min.css" />
     <link rel="stylesheet" href="../../js/lib/clock/clock.css" />
     <script type="text/javascript" src="../../js/lib/jquery.min.js"></script>
     <script src="../../js/lb.js"></script>
     <script src="../../js/lib/autocomplete/jquery.bigautocomplete.js"></script>
-    <!--<script src="../../js/search.js"></script>&lt;!&ndash;搜索框css带有外部样式&ndash;&gt;-->
-    <script src="../../js/lib/lgallery/js/lgallery.min.js"></script>
     <script src="../../js/lib/clock/moment.min.js"></script>
     <script src="../../js/lib/clock/clock.js"></script>
     <script src="../../js/lib/layer/layer.js"></script>
-<!--
-    <script src="../../js/lib/jquery.lazyload.min.js"></script>
--->
+    <script type="module" async src="/main/config/navigatorPhotos.js"></script>
+
+    <!--
+        <script src="../../js/lib/jquery.lazyload.min.js"></script>
+    -->
 
     <style>
         body {
@@ -99,65 +98,10 @@
             });
             initFuzzyQuery("FuzzyQuery");
 
-            var images = [   //相册包含的图片，数组格式
-                {
-                    "alt": "图片名1",
-                    "pid":  1, //图片id
-                    "anim": 0,
-                    "src": "__IMG__/01.jpg", //原图地址
-                },
-                {
-                    "alt": "图片名2",
-                    "pid": 2, //图片id
-                    "anim": 0,
-                    "src": "__IMG__/01.jpg", //原图地址
-                },
-                {
-                    "alt": "图片名3",
-                    "pid": 3, //图片id
-                    "anim": 0,
-                    "src": "__IMG__/01.jpg", //原图地址
-                },
-                {
-                    "alt": "图片名4",
-                    "pid": 4, //图片id
-                    "anim": 0,
-                    "src": "__IMG__/01.jpg", //原图地址
-                }
-
-            ];
-
             $(".gallery-item .caption").on("click", function(e){
-                parent.showPhotos([
-                    {"alt": "图片名1","src": encodeURI("/main/images/navigator/太湖西山1.jpg")},
-                    {"alt": "图片名2","src": encodeURI("/main/images/navigator/太湖西山2.png")},
-                    {"alt": "图片名3","src": encodeURI("/main/images/navigator/太湖西山3.png")}
-                    ])
+                parent.showPhotos(navigatorPhotos)
             });
-            // parent.layer.open({
-            //     type: 2,
-            //     title: 'layer mobile页',
-            //     shadeClose: true,
-            //     shade: 0.8,
-            //     area: ['380px', '90%'],
-            //     content: 'mobile/' //iframe的url
-            // });
-
         });
-        $(function() {
-
-             // url = $.ajax({
-             //     type: "get",
-             //     url: "main/images/carousel/%E5%A4%AA%E6%B9%96%E8%A5%BF%E5%B1%B13.png",
-             //     async: true,
-             //     success: function() {
-             //         $("img.lazyLoad").attr("data-original", url.responseText);
-             //         $("img.lazyLoad").lazyload({
-             //             effect: "fadeIn"
-             //         });
-             //     }
-             // });
-         });
         function lazyLoadImg(imgurlpath,imgid) {
             var windowUrl = window.URL || window.webkitURL;//处理浏览器兼容性
             $img=$("#"+imgid);
@@ -253,7 +197,7 @@
 <!--图片轮播栏-->
 <div id="navigator-gallery" class="block block-wpo-gallery block--node-specific-gallery " style="margin-top: 4px;">
     <div class="node-slideshow">
-        <div class="gallery-item" id="gallery-item1">
+        <div class="gallery-item">
             <img class="slick-image" src="../../images/navigator/太湖西山1.jpg" alt="" title=""/>
             <a href="javascript:void(0)">
                 <span class="caption">
@@ -262,7 +206,7 @@
             </a>
         </div>
         <div class="gallery-item">
-            <img class="slick-image lazyLoad" src="../../images/navigator/太湖西山3.png" alt="" title=""/>
+            <img class="slick-image" src="../../images/navigator/太湖西山3.png" alt="" title=""/>
             <a href="javascript:void(0)">
                 <span class="caption">
                     <span>太湖西山~苏州</span>
@@ -270,7 +214,7 @@
             </a>
         </div>
         <div class="gallery-item">
-            <img class="slick-image lazyLoad" src="../../images/navigator/太湖西山2.png" alt="" title=""/>
+            <img class="slick-image" src="../../images/navigator/太湖西山2.png" alt="" title=""/>
             <a href="javascript:void(0)">
                 <span class="caption">
                     <span>太湖西山~苏州</span>
@@ -287,9 +231,6 @@
         </div>
     </div>
 </div>
-<script>
-    // initLG();// Init LGallery
-</script>
 
 <!--菜单导航栏-->
 <div class="nav_z">

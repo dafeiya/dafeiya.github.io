@@ -23,7 +23,7 @@ function initProgramTree(id){
             //根节点类型
             "#" : {
                 "max_children" : 1,
-                "max_depth" : 4,
+                "max_depth" : 3,
                 "valid_children" : ["root"]
             },
             "root" : {
@@ -95,7 +95,10 @@ function initProgramTree(id){
     });
 
     $("#"+id).on("select_node.jstree", function (e, data) {
-        // console.log(data.node);
+        //console.log(data.node);
+        var programerBlogName="programer_blog_"+data.node.id+".html";
+        $(top.frames['iframe_main'].document).find("#blogcontext").load("/main/html/menu/programer/blogs/"+programerBlogName);
+
     }).on('changed.jstree', function(event,data) {
         // console.log("-----------changed.jstree");
         // console.log("action:" + data.action);
