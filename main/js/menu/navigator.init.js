@@ -14,7 +14,7 @@ $(function () {
         let html="";
         for (let i = 0; i <photoItems.length ; i++) {
             html+='<div class="gallery-item">';
-            html+='<img class="slick-image" src="'+photoItems[i].src+'" />';
+            html+='<img class="slick-image" width="800px" height="450px" src="'+photoItems[i].src+'" />';
             html+='<span class="caption"><span>'+photoItems[i].title+'</span></span>';
             html+='</div>';
         }
