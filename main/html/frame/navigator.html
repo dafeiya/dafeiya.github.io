@@ -6,24 +6,18 @@
     <meta name="description" content=""/>
     <meta name="author" content="limeng">
     <meta name="keywords" content=""/>
-    <link rel="stylesheet" href="../../../sshf/style.css"/>
-    <link rel="stylesheet" href="../../../sshf/layout.css"/>
-    <link rel="stylesheet" href="../../css/lb.css"/>
-    <link href="../../css/swpastyle.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../../js/lib/autocomplete/jquery.bigautocomplete.css"/>
-    <link rel="stylesheet" href="../../js/lib/clock/clock.css" />
-    <script type="text/javascript" src="../../js/lib/jquery.min.js"></script>
-    <script src="../../js/lb.js"></script>
-    <script src="../../js/lib/autocomplete/jquery.bigautocomplete.js"></script>
-    <script src="../../js/lib/clock/moment.min.js"></script>
-    <script src="../../js/lib/clock/clock.js"></script>
-    <script src="../../js/lib/layer/layer.js"></script>
-    <script type="module" async src="/main/config/navigatorPhotos.js"></script>
-
-    <!--
-        <script src="../../js/lib/jquery.lazyload.min.js"></script>
-    -->
-
+    <link rel="stylesheet" href="/sshf/style.css"/>
+    <link rel="stylesheet" href="/sshf/layout.css"/>
+    <link rel="stylesheet" href="/main/css/lb.css"/>
+    <link href="/main/css/swpastyle.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/main/js/lib/clock/clock.css" />
+    <script type="text/javascript" src="/main/js/lib/jquery.min.js" defer></script>
+    <script src="/main/config/config.js" defer></script>
+    <script src="/main/js/menu/navigator.init.js" defer></script>
+    <script src="/main/js/lb.js" defer></script>
+    <script src="/main/js/lib/clock/moment.min.js" defer></script>
+    <script src="/main/js/lib/clock/clock.js" defer></script>
+    <script src="/main/js/lib/layer/layer.js" defer></script>
     <style>
         body {
             margin: 0;
@@ -86,86 +80,6 @@
         }
 
     </style>
-    <script>
-         // initLG();// Init LGallery
-        $(function () {
-            $(".nav_bg a").click(function(){
-                $(this).addClass("nactive").siblings().removeClass("nactive");
-            });
-
-            $(".nav_0").click(function () {
-                top.frames["iframe_main"].location.href=$(this).data("href");
-            });
-            initFuzzyQuery("FuzzyQuery");
-
-            $(".gallery-item .caption").on("click", function(e){
-                parent.showPhotos(navigatorPhotos)
-            });
-        });
-        function lazyLoadImg(imgurlpath,imgid) {
-            var windowUrl = window.URL || window.webkitURL;//处理浏览器兼容性
-            $img=$("#"+imgid);
-            $.ajax({
-                type: "get",
-                url: encodeURI(imgpath),
-                contentType: 'image/*',
-                success: function(data) {
-                    $img.load(function (e) {
-                        windowUrl.revokeObjectURL($img.src);
-                    }).attr("src", windowUrl.createObjectURL(data));
-                }
-            })
-        }
-
-        function initFuzzyQuery (id) {
-            var $item=$("#"+id);
-            var arr=
-                [{'title':'java',
-                    'name':'dafeiya'
-            },
-                {'title':'network',
-                    'name':'hello'},
-                {'title':'jvm',
-                    'name':'dafeiya123'}];
-            // $.ajax({
-            //     url:"",
-            //     data:{},
-            //     dataType:"json",
-            //     type:"post",
-            //     async:false,
-            //     success:function(data) {
-            //         if(data){
-            //             arr=data;
-            //         }
-            //     }
-            // });
-            $item.bigAutocomplete({
-                width:204,
-                data:arr,
-                callback:function(data){
-                    $item.val(data.name);
-                }
-            });
-        }
-        // function imgFun (url, auth, img) {
-        //     var windowUrl = window.URL || window.webkitURL;//处理浏览器兼容性
-        //     var xhr = new XMLHttpRequest();
-        //     xhr.open("GET", url, true);
-        //     xhr.responseType = "blob";
-        //     xhr.setRequestHeader("Authorization", 'Bearer ' + auth.token);
-        //     xhr.onload = function () {
-        //         console.log(this);
-        //         if (this.status == 200) {
-        //             var blob = this.response;
-        //             $(img).load(function (e) {
-        //                 windowUrl.revokeObjectURL(img.src);
-        //             }).attr("src", windowUrl.createObjectURL(blob));
-        //         }
-        //     }
-        //     xhr.send();
-        // }
-        // imgFun("/common/download/rgPhoto/" + d.result, auth, $("#rgPhotoImg");
-    </script>
 </head>
 
 <body>
@@ -175,12 +89,12 @@
         <div class="main">
             <div class="dafeiyalogo">
                 <a href="https://dafeiya.github.io/"  target="_blank" class="logo">
-                    <img src="../../images/common/dafeiya.jpg" width="60px" height="60px" title="dafeiya">
+                    <img src="/images/common/dafeiya.jpg" width="60px" height="60px" title="dafeiya">
                 </a>
             </div>
             <div class="search-label">
                 <input type="text" placeholder="Search"  id="FuzzyQuery" >
-                <img src="../../../svg/search-key-slash.svg">
+                <img src="/svg/search-key-slash.svg">
             </div>
 
             <div id="clock" class="dark">
@@ -195,40 +109,8 @@
 </div>
 
 <!--图片轮播栏-->
-<div id="navigator-gallery" class="block block-wpo-gallery block--node-specific-gallery " style="margin-top: 4px;">
-    <div class="node-slideshow">
-        <div class="gallery-item">
-            <img class="slick-image" src="../../images/navigator/太湖西山1.jpg" alt="" title=""/>
-            <a href="javascript:void(0)">
-                <span class="caption">
-                    <span>太湖西山~苏州</span>
-                </span>
-            </a>
-        </div>
-        <div class="gallery-item">
-            <img class="slick-image" src="../../images/navigator/太湖西山3.png" alt="" title=""/>
-            <a href="javascript:void(0)">
-                <span class="caption">
-                    <span>太湖西山~苏州</span>
-                </span>
-            </a>
-        </div>
-        <div class="gallery-item">
-            <img class="slick-image" src="../../images/navigator/太湖西山2.png" alt="" title=""/>
-            <a href="javascript:void(0)">
-                <span class="caption">
-                    <span>太湖西山~苏州</span>
-                </span>
-            </a>
-        </div>
-        <div class="gallery-item">
-            <img class="slick-image" src="../../images/navigator/鼋头渚-无锡.png" alt="" title=""/>
-            <a href="javascript:void(0)">
-                <span class="caption">
-                    <span>鼋头渚～无锡</span>
-                </span>
-            </a>
-        </div>
+<div id="navigator-gallery" class="block block-wpo-gallery block-gallery " style="margin-top: 4px;" >
+    <div class="gallery-photos" id="gallery-photos">
     </div>
 </div>
 

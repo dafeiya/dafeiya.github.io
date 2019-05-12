@@ -200,8 +200,8 @@ Drupal.behaviors.lang_dropdown = {
   Drupal.behaviors.worldPhotoNodeSpecificGallerySlideshow = {
     attach: function(context) {
 
-      if ( $('.node-slideshow').length > 0 ) {
-        $('.node-slideshow').slick({
+      if ( $('.gallery-photos').length > 0 ) {
+        $('.gallery-photos').slick({
           variableWidth: true,
           centerMode: true,
 		  autoplay: true,
