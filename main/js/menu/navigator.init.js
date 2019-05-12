@@ -7,9 +7,7 @@ $(function () {
         top.frames["iframe_main"].location.href=$(this).data("href");
     });
 
-    $(".gallery-item .caption").on("click", function(e){
-        parent.showPhotos($.config.navigatorPhotos);
-    });
+    //初始化混动图片内容
     initGalleryPhotos();
     function initGalleryPhotos() {
         let photoItems=$.config.navigatorPhotos;
@@ -22,4 +20,9 @@ $(function () {
         }
         $("#gallery-photos").html(html);
     }
+
+    //绑定滚动图片的点击浏览
+    $(".gallery-item .caption").on("click", function(e){
+        parent.showPhotos($.config.navigatorPhotos);
+    });
 });
