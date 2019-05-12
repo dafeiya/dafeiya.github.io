@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="720b23b1-8b3f-4556-bbd7-a89ce455222c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/config/navigatorPhotos.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/html/frame/navigator.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/html/frame/navigator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/js/menu/navigator.init.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/js/menu/navigator.init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/navigator/鼋头渚-无锡.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/config/navigatorPhotos.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/config/navigatorPhotos.config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,26 +19,26 @@
       <file leaf-file-name="navigator.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/html/frame/navigator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="107" column="10" lean-forward="true" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
+            <state relative-caret-position="2247">
+              <caret line="107" column="10" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navigator.init.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="navigator.init.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/js/menu/navigator.init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="462">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navigatorPhotos.config.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="navigatorPhotos.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/config/navigatorPhotos.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="315">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -47,7 +46,7 @@
       <file leaf-file-name="programer.tree.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/js/menu/programer.tree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="315">
               <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
@@ -150,6 +149,7 @@
         <option value="$PROJECT_DIR$/main/html/frame/navigator.html" />
         <option value="$PROJECT_DIR$/main/config/config.js" />
         <option value="$PROJECT_DIR$/main/js/menu/navigator.init.js" />
+        <option value="$PROJECT_DIR$/main/config/navigatorPhotos.config.js" />
       </list>
     </option>
   </component>
@@ -183,15 +183,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="dafeiya.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="dafeiya.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dafeiya.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dafeiya.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dafeiya.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dafeiya.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="navigator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dafeiya.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -204,23 +212,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="dafeiya.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dafeiya.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dafeiya.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dafeiya.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,17 +232,18 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/main/config" />
-      <recent name="$PROJECT_DIR$/main/html/menu/programer" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/main/js/menu" />
       <recent name="$PROJECT_DIR$/main/js" />
       <recent name="$PROJECT_DIR$/main/html/menu/programer/blogs" />
       <recent name="$PROJECT_DIR$/main/js/lib/bootstrap" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/navigator" />
+      <recent name="$PROJECT_DIR$/main/config" />
+      <recent name="$PROJECT_DIR$/main/html/menu/programer" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,11 +299,12 @@
       <workItem from="1556690933591" duration="22470000" />
       <workItem from="1557591308082" duration="24385000" />
       <workItem from="1557645524640" duration="181000" />
+      <workItem from="1557649017675" duration="1803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63447000" />
+    <option name="totallyTimeSpent" value="65250000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -332,8 +332,9 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291536" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" x="802" y="63" width="378" height="1017" id="Project" order="0" visible="true" weight="0.2446281" />
+      <window_info active="true" content_ui="combo" x="802" y="63" width="378" height="1017" id="Project" order="0" visible="true" weight="0.24738292" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
       <window_info anchor="right" id="SciView" order="10" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="5" />
@@ -348,7 +349,6 @@
       <window_info anchor="right" x="0" y="0" width="414" height="856" id="Documentation" order="0" side_tool="true" weight="0.3294766" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,10 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-18879">
           <caret line="1" column="1875" selection-start-line="1" selection-start-column="1875" selection-end-line="1" selection-end-column="1875" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#style#0;n#ins#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -648,29 +644,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/js/menu/programer.tree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="315">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/config/navigatorPhotos.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/html/frame/navigator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="107" column="10" lean-forward="true" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
+        <state relative-caret-position="2247">
+          <caret line="107" column="10" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/navigator/福建-霞浦-大京1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/js/menu/navigator.init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="462">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/config/navigatorPhotos.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
