@@ -36,6 +36,7 @@ $(function () {
         } else {
             $(top.document.getElementById("iframe_navigator")).animate({"height": "592px"}, 500);
             $(".toggle-btn .pack-up").css("transform", "rotate(0deg)");
+            $(".slick-next").trigger("click");
             $(this).attr("status", "on")
         }
     })
