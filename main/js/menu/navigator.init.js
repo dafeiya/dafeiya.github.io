@@ -25,4 +25,19 @@ $(function () {
     $(".gallery-item .caption").on("click", function(e){
         parent.showPhotos($.config.navigatorPhotos);
     });
+
+    $(".toggle-btn").click(function () {
+        const status = $(this).attr("status");
+        $("#navigator-gallery").slideToggle(500);
+        if (status == "on") {
+            $(top.document.getElementById("iframe_navigator")).animate({"height": "150px"}, 500);
+            $(".toggle-btn .pack-up").css("transform", "rotate(-180deg)");
+            $(this).attr("status", "off")
+        } else {
+            $(top.document.getElementById("iframe_navigator")).animate({"height": "592px"}, 500);
+            $(".toggle-btn .pack-up").css("transform", "rotate(0deg)");
+            $(this).attr("status", "on")
+        }
+    })
+
 });

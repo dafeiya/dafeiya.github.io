@@ -27,7 +27,7 @@
             height: 66px;
             background-color: #2b2b3c;
             box-shadow: 0 -4px 5px 8px #2b2b3cde;
-            margin-top: 4px;
+            margin: 4px 0;
         }
         .logo {
             float: left;
@@ -78,7 +78,11 @@
             right: 5px;
             top: 4px;
         }
-
+        .toggle-btn {
+            position: absolute;
+            top: 15px;
+            right: 25px;
+        }
     </style>
 </head>
 
@@ -109,21 +113,24 @@
 </div>
 
 <!--图片轮播栏-->
-<div id="navigator-gallery" class="block block-wpo-gallery block-gallery " style="margin-top: 4px;" >
+<div id="navigator-gallery" class="block block-wpo-gallery block-gallery ">
     <div class="gallery-photos" id="gallery-photos">
     </div>
 </div>
 
 <!--菜单导航栏-->
-<div class="nav_z">
+<div class="nav_z" id="#nav-bar">
     <div class="nav_bgr">
         <div class="nav_bg">
             <!--<a href="#" class="nactive"><span class="nav_0">首页</span></a>-->
-            <a href="#"><span class="nav_0" data-href="../menu/home/home.html">首页</span></a>
-            <a href="#"><span class="nav_0" data-href="../menu/photo/photo.html">摄影之路</span></a>
-            <a href="#"><span class="nav_0" data-href="../menu/programer/programer.html">程序生活</span></a>
-            <a href="#"><span class="nav_0" data-href="../menu/essay/essay.html">随笔</span></a>
-            <a href="#"><span class="nav_0" data-href="../menu/aboutme/aboutme.html">关于我</span></a>
+            <a href="#nav-bar"><span class="nav_0" data-href="../menu/home/home.html">首页</span></a>
+            <a href="#nav-bar"><span class="nav_0" data-href="../menu/photo/photo.html">摄影之路</span></a>
+            <a href="#nav-bar"><span class="nav_0" data-href="../menu/programer/programer.html">程序生活</span></a>
+            <a href="#nav-bar"><span class="nav_0" data-href="../menu/essay/essay.html">随笔</span></a>
+            <a href="#nav-bar"><span class="nav_0" data-href="../menu/aboutme/aboutme.html">关于我</span></a>
+        </div>
+        <div class="toggle-btn" status="on">
+            <img class="pack-up" src="/svg/pack-up.svg" width="40" height="40">
         </div>
     </div>
 </div>

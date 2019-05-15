@@ -19,6 +19,7 @@
 }
 
 #clock:after{
+	display: none;
 	content:'';
 	position:absolute;
 	width:400px;

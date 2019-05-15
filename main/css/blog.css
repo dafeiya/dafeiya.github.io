@@ -1,0 +1,48 @@
+.blog-main {
+    color: #323232;
+    font-size: 16px;
+}
+.blog-main a {
+    text-underline: none;
+}
+.blog-main p,h1,h2,h3{
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+.series-head {
+    color: #767676;
+    padding-bottom: 5px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.article-head {
+    color: #4a4a4a;
+    font-size: 45px;
+    font-weight: 400;
+    height: 50px;
+    line-height: 50px;
+}
+.article-topbar {
+    margin: 40px 0 30px 0;
+    height: 48px;
+    clear: both;
+}
+.article-metadata {
+    float: left;
+}
+.article-metadata > img {
+    margin-right: 20px;
+    border-radius: 50%;
+    vertical-align: bottom;
+}
+.article-metadata .authordate {
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+}
+.article-metadata .authordate p:last-child {
+    color: #8a8a8a;
+}
